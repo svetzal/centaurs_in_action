@@ -1,0 +1,241 @@
+{
+  "ClassificationSet": "Leadership in a Gen AI World - Supporting Graphic Classes",
+  "Purpose": "Classify the kinds of reusable visual props that can be generated for slides and Mural exercises without adding more words to the board.",
+  "VisualSystemContract": "centaur-ai-visual-system.contract.json",
+  "SingleGraphicSchema": "supporting-graphic.schema.json",
+  "GraphicSetSchema": "supporting-graphic-set.schema.json",
+  "GlobalRules": [
+    "No readable words or labels inside generated graphics.",
+    "Prefer transparent PNG cutouts for easy placement in Mural.",
+    "Use the centaur-world prop language even for abstract Gen AI concepts.",
+    "Use teal AI glow sparingly so the workshop still feels mythic, warm, and human-led.",
+    "Use objects as metaphors, not explanatory diagrams."
+  ],
+  "Classes": [
+    {
+      "GraphicRole": "quadrant-emotion-icon",
+      "UseCase": "Small icons placed near the Gen AI feeling quadrant: empowered, courageous, disempowered, afraid.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "1:1",
+        "Size": "1024x1024",
+        "Background": "transparent"
+      },
+      "Composition": "One centered object with a strong silhouette, gentle contact shadow, and no surrounding scene.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Lifted Torch",
+          "EmotionOrTheme": "empowerment",
+          "Description": "A bronze-and-leather torch with a warm gold flame and a small teal AI spark inside the flame."
+        },
+        {
+          "Name": "Brave Shield",
+          "EmotionOrTheme": "courage",
+          "Description": "A round antique-gold and navy shield with a tiny compass-star boss and a few harmless arrow marks."
+        },
+        {
+          "Name": "Loose Reins",
+          "EmotionOrTheme": "disempowerment",
+          "Description": "A pair of slack leather reins tangled around a small dim teal orb, implying loss of agency without darkness."
+        },
+        {
+          "Name": "Lantern at Cave Edge",
+          "EmotionOrTheme": "fear",
+          "Description": "A small warm lantern illuminating the edge of an unknown path, nervous but not horror-themed."
+        }
+      ]
+    },
+    {
+      "GraphicRole": "swimlane-anchor-prop",
+      "UseCase": "Props beside the centaur and reverse-centaur swimlanes to reinforce the difference between AI working for us and us working for AI.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "4:3",
+        "Size": "1536x1024",
+        "Background": "transparent"
+      },
+      "Composition": "One medium-size prop cluster, readable from across a Mural board, with more horizontal space than a simple icon.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Partnership Saddle",
+          "EmotionOrTheme": "partnership",
+          "Description": "A well-fitted leather saddle with bronze tools, a rolled map, and a small teal crystal clipped safely to the side."
+        },
+        {
+          "Name": "Guiding Compass Reins",
+          "EmotionOrTheme": "agency",
+          "Description": "Leather reins arranged around a glowing compass, showing direction chosen by the rider rather than imposed by the tool."
+        },
+        {
+          "Name": "Overloaded Pack",
+          "EmotionOrTheme": "overwork",
+          "Description": "A sagging travel pack stuffed with scrolls, glowing teal forms, and loose straps, playful rather than bleak."
+        },
+        {
+          "Name": "Misfit Bridle",
+          "EmotionOrTheme": "overwork",
+          "Description": "A bridle awkwardly wrapped around a stack of glowing AI orbs, suggesting the team is adapting itself to the tool."
+        }
+      ]
+    },
+    {
+      "GraphicRole": "reflection-question-icon",
+      "UseCase": "Small private-reflection icons for the four desk questions: what do you know, what do you need to know, where are you at, where are you going.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "1:1",
+        "Size": "1024x1024",
+        "Background": "transparent"
+      },
+      "Composition": "One symbolic object or tight pair of objects. No text, no labels, no answer content.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Known Scroll",
+          "EmotionOrTheme": "learning",
+          "Description": "An unfurled parchment scroll weighted by a horseshoe, with tiny decorative marks and a soft teal constellation thread."
+        },
+        {
+          "Name": "Open Spyglass",
+          "EmotionOrTheme": "curiosity",
+          "Description": "A brass spyglass aimed upward with a small teal glint in the lens, paired with a folded blank map."
+        },
+        {
+          "Name": "You-Are-Here Cairn",
+          "EmotionOrTheme": "self-location",
+          "Description": "A small stack of trail stones with a compass needle laid across it and hoofprints nearby."
+        },
+        {
+          "Name": "Future Path Marker",
+          "EmotionOrTheme": "future-direction",
+          "Description": "A forked mountain path marker with two blank pennants, a warm sunrise glow, and a subtle teal line leading forward."
+        }
+      ]
+    },
+    {
+      "GraphicRole": "curiosity-target-prop",
+      "UseCase": "Props around the final group target exercise: how could leaders engage direct reports with the curiosity framework.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "1:1",
+        "Size": "1024x1024",
+        "Background": "transparent"
+      },
+      "Composition": "Circular or radial objects that can sit near a target without competing with sticky notes.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Compass Target",
+          "EmotionOrTheme": "team-coaching",
+          "Description": "A circular target blended with a compass rose, antique-gold rings, navy tick marks, and no numbers."
+        },
+        {
+          "Name": "Conversation Campfire",
+          "EmotionOrTheme": "supportive",
+          "Description": "A small warm campfire ring with three tiny blank parchment cards around it, suggesting team conversation."
+        },
+        {
+          "Name": "Curiosity Arrows",
+          "EmotionOrTheme": "curiosity",
+          "Description": "Four friendly arrows with feather fletching circling inward toward a soft teal question-shaped glow, but no actual question mark text if avoidable."
+        },
+        {
+          "Name": "Mentor Laurel",
+          "EmotionOrTheme": "leadership",
+          "Description": "A small laurel wreath tied with leather cord and a tiny compass-star charm."
+        }
+      ]
+    },
+    {
+      "GraphicRole": "sticky-note-companion",
+      "UseCase": "Tiny decorative props that can sit in board corners, beside sticky clusters, or between exercises.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "1:1",
+        "Size": "1024x1024",
+        "Background": "transparent"
+      },
+      "Composition": "Very simple, low-detail, visible at 80-150 px.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Hoofprint Pair",
+          "EmotionOrTheme": "movement",
+          "Description": "Two soft brown hoofprints with a tiny antique-gold sparkle."
+        },
+        {
+          "Name": "Blank Pennant",
+          "EmotionOrTheme": "participation",
+          "Description": "A small blank navy-and-gold pennant on a wooden pole, no symbol or words."
+        },
+        {
+          "Name": "Bronze Star Pin",
+          "EmotionOrTheme": "attention",
+          "Description": "A small compass-star pushpin in antique gold."
+        },
+        {
+          "Name": "Teal Spark",
+          "EmotionOrTheme": "AI presence",
+          "Description": "A tiny contained teal spark with two or three warm gold motes, not a neon burst."
+        }
+      ]
+    },
+    {
+      "GraphicRole": "divider-ornament",
+      "UseCase": "Subtle decorative separators for slide corners, Mural section borders, or transitions.",
+      "BestOutput": {
+        "Format": "transparent-png",
+        "AspectRatio": "16:9",
+        "Size": "1536x1024",
+        "Background": "transparent"
+      },
+      "Composition": "Thin line ornaments inspired by the title art: compass stars, curved gold lines, small navy marks.",
+      "SuggestedSubjects": [
+        {
+          "Name": "Compass Flourish",
+          "EmotionOrTheme": "navigation",
+          "Description": "A fine antique-gold compass star with two curved horizontal flourishes."
+        },
+        {
+          "Name": "Hoofprint Trail Divider",
+          "EmotionOrTheme": "journey",
+          "Description": "A faint trail of tiny hoofprints crossing beneath a thin navy line."
+        },
+        {
+          "Name": "Mountain Line",
+          "EmotionOrTheme": "progress",
+          "Description": "A simple low mountain silhouette line in pale mountain blue with a tiny gold sun."
+        }
+      ]
+    }
+  ],
+  "GenerationBatchSuggestions": [
+    {
+      "BatchName": "Emotion Quadrant Icons",
+      "GraphicRole": "quadrant-emotion-icon",
+      "Count": 4,
+      "Use": "One icon per quadrant corner, all same scale and visual weight."
+    },
+    {
+      "BatchName": "Centaur Swimlane Anchors",
+      "GraphicRole": "swimlane-anchor-prop",
+      "Count": 4,
+      "Use": "Two partnership/agency props for the centaur lane and two overloaded/misaligned props for the reverse-centaur lane."
+    },
+    {
+      "BatchName": "Private Reflection Icons",
+      "GraphicRole": "reflection-question-icon",
+      "Count": 4,
+      "Use": "One icon per private reflection prompt."
+    },
+    {
+      "BatchName": "Curiosity Target Props",
+      "GraphicRole": "curiosity-target-prop",
+      "Count": 4,
+      "Use": "Radial or conversation-oriented icons around the target exercise."
+    },
+    {
+      "BatchName": "Board Sprinkles",
+      "GraphicRole": "sticky-note-companion",
+      "Count": 8,
+      "Use": "Small decorative elements for empty space, sticky-note clusters, and slide corners."
+    }
+  ]
+}

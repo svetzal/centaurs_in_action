@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "supporting-graphic-set.schema.json",
+  "title": "Centaur Gen AI Workshop Supporting Graphic Set Specification",
+  "description": "Creative-contract schema for generating a coordinated set or contact sheet of supporting graphics for the centaur Gen AI workshop visual system.",
+  "type": "object",
+  "required": [
+    "GraphicSetName",
+    "SetPurpose",
+    "VisualSystem",
+    "Output",
+    "SharedStyle",
+    "Graphics"
+  ],
+  "properties": {
+    "GraphicSetName": {
+      "type": "string"
+    },
+    "SetPurpose": {
+      "type": "string"
+    },
+    "VisualSystem": {
+      "type": "string"
+    },
+    "Output": {
+      "type": "object",
+      "required": ["Format", "AspectRatio", "Background", "Separation"],
+      "properties": {
+        "Format": {
+          "type": "string",
+          "enum": ["transparent-png-contact-sheet", "png-on-warm-white-contact-sheet", "individual-transparent-pngs"]
+        },
+        "AspectRatio": {
+          "type": "string",
+          "enum": ["16:9", "4:3", "1:1", "freeform"]
+        },
+        "Size": {
+          "type": "string"
+        },
+        "Background": {
+          "type": "string",
+          "enum": ["transparent", "pure warm white", "plain white"]
+        },
+        "Separation": {
+          "type": "string",
+          "description": "How clearly each generated prop should be separated for later cropping."
+        },
+        "NoText": {
+          "type": "boolean"
+        }
+      }
+    },
+    "SharedStyle": {
+      "type": "object",
+      "required": ["Rendering", "Palette", "Linework", "Lighting", "Texture", "ConsistencyRules"],
+      "properties": {
+        "Rendering": {
+          "type": "string"
+        },
+        "Palette": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "Linework": {
+          "type": "string"
+        },
+        "Lighting": {
+          "type": "string"
+        },
+        "Texture": {
+          "type": "string"
+        },
+        "ConsistencyRules": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "ExerciseContext": {
+      "type": "object",
+      "properties": {
+        "ExerciseNumber": {
+          "type": "integer",
+          "enum": [1, 2, 3, 4]
+        },
+        "ExerciseName": {
+          "type": "string"
+        },
+        "MuralPlacement": {
+          "type": "string"
+        }
+      }
+    },
+    "Graphics": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["Name", "Role", "Description", "SymbolicMeaning"],
+        "properties": {
+          "Name": {
+            "type": "string"
+          },
+          "Role": {
+            "type": "string",
+            "enum": [
+              "quadrant-emotion-icon",
+              "swimlane-anchor-prop",
+              "reflection-question-icon",
+              "curiosity-target-prop",
+              "centaur-world-prop",
+              "sticky-note-companion",
+              "divider-ornament",
+              "mural-anchor",
+              "slide-accent"
+            ]
+          },
+          "Description": {
+            "type": "string"
+          },
+          "SymbolicMeaning": {
+            "type": "string"
+          },
+          "AIMotif": {
+            "type": "string"
+          },
+          "CentaurMotif": {
+            "type": "string"
+          },
+          "Composition": {
+            "type": "string"
+          },
+          "Avoid": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "PromptKeywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "NegativePromptKeywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "ContractType": "VisualSystem",
+  "ContractName": "Leadership in a Gen AI World - Centaur Visual System",
+  "Purpose": "Creative contract for generating consistent supporting graphics, icons, sticker props, ornaments, and small Mural/presentation embellishments that match the supplied centaur workshop theme.",
+  "ReferenceImages": [
+    {
+      "File": "ChatGPT Image Jun 25, 2026, 10_31_15 AM.png",
+      "Use": "Centaur vs reverse-centaur contrast, white-background character reference, humorous but polished proportions"
+    },
+    {
+      "File": "ChatGPT Image Jun 25, 2026, 10_31_21 AM.png",
+      "Use": "Primary centaur party reference, character confidence, warm fantasy wardrobe, horse-body palette"
+    },
+    {
+      "File": "ChatGPT Image Jun 25, 2026, 10_31_27 AM.png",
+      "Use": "Workshop title art, mountain overlook, adventure mood, typographic ornament language"
+    },
+    {
+      "File": "ChatGPT Image Jun 25, 2026, 10_31_32 AM.png",
+      "Use": "Full poster composition, leadership message, icon ornament style, navy and antique-gold accent system"
+    }
+  ],
+  "VisualLanguage": {
+    "Genre": "Bright mythic-adventure workshop illustration",
+    "Rendering": "Polished storybook spot illustration with clean ink-like outlines, smooth painterly shading, warm highlights, expressive shapes, and enough detail to feel premium without becoming realistic.",
+    "Mood": "Optimistic, playful, courageous, inviting, leaderly, lightly humorous.",
+    "Audience": "Technical team leads in a workplace workshop; imagery should feel smart and fun, not childish or satirical.",
+    "World": "A heroic centaur-led Gen AI leadership journey: rocky overlooks, mountains, compass ornaments, leather straps, bronze hardware, parchment, maps, lanterns, shields, targets, flags, hoofprints, and journey markers."
+  },
+  "Palette": {
+    "CoreNeutrals": [
+      {
+        "Name": "warm white",
+        "Hex": "#fffaf0",
+        "Use": "clean slide or Mural background compatibility"
+      },
+      {
+        "Name": "ink navy",
+        "Hex": "#10284a",
+        "Use": "primary dark accent, outline depth, optional tiny decorative marks"
+      },
+      {
+        "Name": "charcoal brown",
+        "Hex": "#2f2118",
+        "Use": "linework, mane/tail shadows, leather detail"
+      }
+    ],
+    "HeroAccents": [
+      {
+        "Name": "antique gold",
+        "Hex": "#a87424",
+        "Use": "ornaments, compass stars, badges, trim, leadership accent"
+      },
+      {
+        "Name": "warm parchment",
+        "Hex": "#ead6aa",
+        "Use": "scrolls, maps, cards, note-like props"
+      },
+      {
+        "Name": "mountain blue",
+        "Hex": "#6f8cae",
+        "Use": "distant landscape hints, cool shadow accents"
+      },
+      {
+        "Name": "sage green",
+        "Hex": "#506b3f",
+        "Use": "tunics, foliage, grounded confidence"
+      },
+      {
+        "Name": "deep teal",
+        "Hex": "#1f6370",
+        "Use": "AI signal glow, subtle modern-tech contrast"
+      },
+      {
+        "Name": "terracotta brown",
+        "Hex": "#9a5a25",
+        "Use": "horse bodies, leather, earth, cliffs"
+      }
+    ],
+    "UseRules": [
+      "Keep antique gold and ink navy as the most recognizable brand accents.",
+      "Use teal sparingly to suggest AI, signal, data, or modern technical energy.",
+      "Avoid neon cyberpunk, saturated purple-blue gradients, corporate stock-art blues, and flat monochrome icon palettes."
+    ]
+  },
+  "LineAndShape": {
+    "Outline": "Clean dark warm-brown or navy outline, varied weight, rounded ends, never harsh vector-flat.",
+    "Shading": "Soft painterly cell-shading with warm highlights and gentle occlusion shadows.",
+    "ShapeLanguage": "Readable silhouettes, slightly exaggerated heroic props, friendly curves, ornamental scroll flourishes, compass-star points.",
+    "Texture": "Subtle parchment grain, leather grain, brushed bronze, stone cracks, mane/tail hair strokes, soft watercolor-like mountain atmospherics."
+  },
+  "CharacterAndCreatureLanguage": {
+    "Centaurs": "Confident, upright, warm, alert, collaborative. Human torsos use adventure-leader wardrobe; horse bodies are sturdy and graceful.",
+    "ReverseCentaur": "Allowed only when explicitly requested as a humorous contrast. It should read as awkward or misaligned without being grotesque.",
+    "Faces": "Expressive, optimistic, curious, courageous. Avoid fear caricatures that humiliate the participant.",
+    "Scale": "Supporting graphics should usually be props rather than full characters, unless GraphicRole explicitly calls for a centaur marker."
+  },
+  "PropLanguage": {
+    "CoreMotifs": [
+      "compass rose",
+      "torch",
+      "lantern",
+      "shield",
+      "map",
+      "scroll",
+      "target",
+      "arrow",
+      "horseshoe",
+      "saddle",
+      "reins",
+      "bridle",
+      "banner pennant",
+      "laurel",
+      "mountain path marker",
+      "campfire circle",
+      "spyglass",
+      "tool belt",
+      "question medallion",
+      "hoofprint trail"
+    ],
+    "AIMotifs": [
+      "small glowing teal orb",
+      "constellation-node pattern",
+      "subtle circuit traces etched into bronze",
+      "floating spark motes",
+      "threaded light path",
+      "crystal lens"
+    ],
+    "FusionRule": "When a prop represents Gen AI, blend mythic journey objects with one restrained AI motif, such as a parchment map with teal constellation nodes or a bronze compass with circuit-like engraving."
+  },
+  "BackgroundPolicy": {
+    "Default": "Transparent background preferred for Mural and slide paste-in use.",
+    "Fallback": "If transparency is unavailable, use pure warm white with no border and a soft contact shadow only when needed.",
+    "Forbidden": [
+      "busy scenery behind small props",
+      "full poster backgrounds for icons",
+      "dark cyberpunk backgrounds",
+      "visible text labels inside the graphic"
+    ]
+  },
+  "TypographyPolicy": {
+    "Default": "No words, no letters, no UI labels, no pseudo-text.",
+    "Allowed": "Tiny illegible decorative map marks or runes only when explicitly requested, and never for exercise labels.",
+    "Reason": "These assets are meant to support Mural and slide content that already contains words."
+  },
+  "CompositionPolicy": {
+    "SmallIcon": "One centered object, strong silhouette, minimal detail, transparent background.",
+    "SpotIllustration": "One dominant prop or small cluster, 3/4 view, contact shadow, readable at 200-300 px.",
+    "Ornament": "Symmetric or gently curved decorative mark, antique-gold/navy linework, very low visual weight.",
+    "MuralAnchor": "Larger prop cluster that can sit beside a Mural exercise, with empty space around it and no embedded labels.",
+    "PropSheet": "Multiple isolated props on transparent or pure white background, evenly spaced, no overlap, no text."
+  },
+  "QualityRules": [
+    "Every prop must read clearly without relying on text.",
+    "Use the same warm mythic-adventure rendering across all props.",
+    "Keep shapes friendly and workshop-appropriate, even for fear or disempowerment themes.",
+    "Avoid literal robot takeover imagery, dystopian fear cues, or mockery of participants.",
+    "Leave enough negative space around every prop for cropping into individual assets.",
+    "Do not create logos, trademarks, or recognizable copyrighted fantasy symbols."
+  ],
+  "PromptKeywords": [
+    "bright mythic adventure illustration",
+    "polished storybook spot illustration",
+    "centaur workshop theme",
+    "warm mountain light",
+    "antique gold and ink navy accents",
+    "clean expressive outlines",
+    "smooth painterly shading",
+    "transparent background",
+    "no text",
+    "no labels",
+    "Mural workshop stickers"
+  ],
+  "NegativePromptKeywords": [
+    "no cyberpunk",
+    "no neon city",
+    "no corporate stock vector style",
+    "no flat monochrome icons",
+    "no embedded words",
+    "no fake lettering",
+    "no dark dystopian mood",
+    "no photorealism",
+    "no cluttered background"
+  ]
+}

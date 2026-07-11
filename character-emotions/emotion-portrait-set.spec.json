@@ -1,0 +1,145 @@
+{
+  "SpecName": "Leadership in a Gen AI World - Character Emotion Portrait Set",
+  "SpecPurpose": "Generate consistent individual transparent 512x512 circular face portraits for each approved workshop character and emotion.",
+  "VisualSystem": "Leadership in a Gen AI World - Centaur Visual System",
+  "VisualSystemContract": "../centaur-ai-visual-system.contract.json",
+  "ApprovedStyleSamples": [
+    {
+      "File": "skeptical-all-characters-sample.png",
+      "Use": "Approved medallion style, linework, palette, and character rendering."
+    },
+    {
+      "File": "transparent-512/female-white-centaur-skeptical-tight-sample.png",
+      "Use": "Approved tighter face-only crop for individual emotion assets."
+    }
+  ],
+  "Output": {
+    "Format": "transparent-png",
+    "FinalSizePx": {
+      "Width": 512,
+      "Height": 512
+    },
+    "AspectRatio": "1:1",
+    "FinalDirectory": "character-emotions/transparent-512",
+    "SourceDirectory": "character-emotions/source",
+    "FilenamePattern": "{characterSlug}-{emotionSlug}.png",
+    "Background": "transparent",
+    "GenerationBackground": {
+      "Technique": "flat chroma key plus local removal",
+      "Color": "#ff00ff",
+      "Rule": "The chroma-key color must appear only outside the circular medallion and nowhere in the character, frame, or parchment fill."
+    }
+  },
+  "SharedStyle": {
+    "Rendering": "Bright mythic-adventure polished storybook illustration matching the approved sample.",
+    "Linework": "Clean warm dark outlines with varied weight and rounded ends.",
+    "Shading": "Smooth painterly cell shading with warm highlights and subtle occlusion.",
+    "Palette": [
+      "warm parchment fill",
+      "antique gold frame accent",
+      "ink navy frame accent",
+      "warm brown linework",
+      "character-specific skin, hair, fur, and wardrobe colors from references"
+    ],
+    "Texture": "Subtle parchment texture inside the medallion only; no background texture outside it.",
+    "Mood": "Expressive, smart, playful, workshop-appropriate, premium but not photorealistic.",
+    "Avoid": [
+      "text",
+      "labels",
+      "watermarks",
+      "fake lettering",
+      "photorealism",
+      "flat corporate vector style",
+      "cyberpunk",
+      "scenery",
+      "full body",
+      "shoulders",
+      "upper torso"
+    ]
+  },
+  "Composition": {
+    "Frame": "One centered perfectly circular portrait medallion with a thin antique-gold and ink-navy circular accent.",
+    "Crop": "Very tight face close-up. Face fills most of the circle, top of hair and chin comfortably inside the frame, only a hint of neck visible, no shoulders and no upper torso.",
+    "Pose": "Facing the camera directly.",
+    "Padding": "Keep the full circular frame visible with a small transparent margin around it after final 512x512 normalization.",
+    "InsideCircle": "Warm parchment fill only; no scenery, props, symbols, or labels."
+  },
+  "Characters": [
+    {
+      "Slug": "female-white-centaur",
+      "DisplayName": "female white centaur",
+      "ReferenceFile": "../character-references/female-white-centaur-character-study.png",
+      "Description": "Warm tan skin, long wavy dark brown hair framing the face, expressive dark eyebrows and eyes, white draped top barely visible or not visible."
+    },
+    {
+      "Slug": "gender-neutral-gray-centaur",
+      "DisplayName": "gender-neutral tall gray centaur",
+      "ReferenceFile": "../character-references/gender-neutral-tall-gray-centaur-character-study-v2.png",
+      "Description": "Warm tan skin, short tousled brown hair, youthful gender-neutral face, expressive dark eyebrows and eyes, gray sleeveless top barely visible or not visible."
+    },
+    {
+      "Slug": "reverse-centaur",
+      "DisplayName": "reverse centaur",
+      "ReferenceFile": "../character-references/reverse-centaur-character-study.png",
+      "Description": "Friendly humorous horse head, brown coat, dark mane, expressive horse eyes and brows, white shirt collar barely visible or not visible; awkward but not grotesque."
+    },
+    {
+      "Slug": "male-brown-centaur",
+      "DisplayName": "male brown centaur",
+      "ReferenceFile": "../character-references/male-brown-centaur-character-study.png",
+      "Description": "Warm tan skin, wavy dark brown hair, strong dark brows, friendly heroic face, white draped top barely visible or not visible."
+    }
+  ],
+  "Emotions": [
+    {
+      "Slug": "sad",
+      "DisplayName": "sad",
+      "Expression": "Sad but dignified: inner brows lifted, softened eyes, small downturned mouth, no tears."
+    },
+    {
+      "Slug": "angry",
+      "DisplayName": "angry",
+      "Expression": "Angry but controlled: brows drawn down, focused eyes, tight mouth, determined tension, not shouting."
+    },
+    {
+      "Slug": "surprised",
+      "DisplayName": "surprised",
+      "Expression": "Surprised: raised brows, widened eyes, small open mouth or parted lips, alert rather than frightened."
+    },
+    {
+      "Slug": "tired",
+      "DisplayName": "tired",
+      "Expression": "Tired: heavy eyelids, softened posture in the face, faint under-eye fatigue, relaxed mouth, not sad."
+    },
+    {
+      "Slug": "happy",
+      "DisplayName": "happy",
+      "Expression": "Happy: warm genuine smile, bright eyes, relaxed brows, friendly confidence."
+    },
+    {
+      "Slug": "stressed",
+      "DisplayName": "stressed",
+      "Expression": "Stressed: tense brows, slightly wide or worried eyes, compressed mouth, controlled workplace pressure, not panic."
+    },
+    {
+      "Slug": "thoughtful",
+      "DisplayName": "thoughtful",
+      "Expression": "Thoughtful: focused eyes, slightly raised or knit brows, closed contemplative mouth, reflective and intelligent."
+    },
+    {
+      "Slug": "bored",
+      "DisplayName": "bored",
+      "Expression": "Bored: half-lidded eyes, flat or mildly pursed mouth, low-energy expression, not sleepy."
+    },
+    {
+      "Slug": "skeptical",
+      "DisplayName": "skeptical",
+      "Expression": "Skeptical, not angry: one raised eyebrow, slightly narrowed eyes, small asymmetrical doubtful mouth, smart and playful."
+    }
+  ],
+  "PromptTemplate": {
+    "UseCase": "stylized-concept",
+    "AssetType": "individual 512x512 transparent PNG character-emotion portrait",
+    "Prompt": "Use case: stylized-concept\nAsset type: individual 512x512 transparent PNG character-emotion portrait\nPrimary request: Create a single tight circular face portrait of the established {characterDisplayName} character from the reference sheet, showing the emotion {emotionDisplayName}.\nScene/backdrop: The only background outside the circular portrait medallion must be a perfectly flat solid #ff00ff chroma-key background for removal. No shadows, gradients, texture, reflections, scenery, floor plane, or lighting variation outside the medallion. Do not use #ff00ff anywhere inside the subject or medallion.\nSubject: {characterDescription}\nExpression: {emotionExpression}\nStyle/medium: Match the approved sample style exactly: bright mythic-adventure polished storybook illustration, clean warm dark outlines, smooth painterly cell shading, warm highlights, premium friendly character-study rendering.\nComposition/framing: Square image, one centered perfectly circular medallion. Very tight close-up: face fills most of the circle, top of hair and chin comfortably inside frame, only a hint of neck, no shoulders, no upper torso. Facing the camera directly. Keep the full circular frame visible with a thin antique gold and ink navy circular accent, warm parchment fill inside the circle. Outside the circle remains flat #ff00ff.\nConstraints: no text, no labels, no watermark, no fake lettering, no photorealism, no flat corporate vector style, no cyberpunk, no scenery, no full body, no shoulders or torso."
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "GraphicSetName": "Leadership in a Gen AI World - Mural Exercise Props",
+  "SetPurpose": "Starter creative briefs for consistently themed no-text supporting graphics across the presentation and Mural.",
+  "VisualSystem": "Leadership in a Gen AI World - Centaur Visual System",
+  "VisualSystemContract": "centaur-ai-visual-system.contract.json",
+  "OutputDefaults": {
+    "Format": "transparent-png",
+    "Background": "transparent",
+    "FallbackBackground": "pure warm white",
+    "TextPolicy": "no text, no labels, no pseudo-letters",
+    "Style": "bright mythic-adventure storybook spot illustration with warm mountain light, antique gold and ink navy accents, clean expressive outlines, smooth painterly shading"
+  },
+  "Exercises": [
+    {
+      "ExerciseNumber": 1,
+      "ExerciseName": "Gen AI Feeling Quadrant",
+      "ParticipantAction": "People put stickies about how they feel about Gen AI on a quadrant diagram.",
+      "Props": [
+        {
+          "Name": "Empowered Torch",
+          "GraphicRole": "quadrant-emotion-icon",
+          "ContentDescription": "A bronze-and-leather torch held upright by no visible hand, with a warm gold flame and a small contained teal AI spark inside it.",
+          "Subject": {
+            "Type": "torch",
+            "EmotionOrTheme": "empowerment",
+            "SymbolicMeaning": "I feel empowered"
+          },
+          "Composition": "Centered 3/4 object, transparent background, strong silhouette, soft contact shadow."
+        },
+        {
+          "Name": "Courage Shield",
+          "GraphicRole": "quadrant-emotion-icon",
+          "ContentDescription": "A round navy-and-antique-gold shield with a compass-star boss, three friendly arrow nicks, and warm light catching the rim.",
+          "Subject": {
+            "Type": "shield",
+            "EmotionOrTheme": "courage",
+            "SymbolicMeaning": "I feel courageous"
+          },
+          "Composition": "Centered front-facing shield, transparent background, no symbols that look like letters."
+        },
+        {
+          "Name": "Tangled Reins",
+          "GraphicRole": "quadrant-emotion-icon",
+          "ContentDescription": "Slack leather reins loosely tangled around a dim teal orb, with one strap trailing away and a tiny horseshoe charm off balance.",
+          "Subject": {
+            "Type": "reins",
+            "EmotionOrTheme": "disempowerment",
+            "SymbolicMeaning": "I feel disempowered"
+          },
+          "Composition": "Simple object cluster, gentle humor, not bleak, transparent background."
+        },
+        {
+          "Name": "Lantern at the Unknown Path",
+          "GraphicRole": "quadrant-emotion-icon",
+          "ContentDescription": "A small brass-and-leather lantern glowing warmly at the edge of a stylized stone path, with a cool teal glimmer just beyond the light.",
+          "Subject": {
+            "Type": "lantern",
+            "EmotionOrTheme": "fear",
+            "SymbolicMeaning": "I feel afraid"
+          },
+          "Composition": "Centered spot illustration, enough warmth to feel safe, no horror imagery."
+        }
+      ]
+    },
+    {
+      "ExerciseNumber": 2,
+      "ExerciseName": "Centaur and Reverse-Centaur Gen AI Engagement Swimlanes",
+      "ParticipantAction": "People put stickies about how they engage with Gen AI currently in swimlanes.",
+      "Props": [
+        {
+          "Name": "Partnership Saddle Kit",
+          "GraphicRole": "swimlane-anchor-prop",
+          "ContentDescription": "A well-fitted leather saddle kit with bronze buckles, a rolled parchment map, a tidy tool pouch, and a safely mounted teal crystal AI lens.",
+          "Subject": {
+            "Type": "saddle",
+            "EmotionOrTheme": "partnership",
+            "SymbolicMeaning": "AI working for us"
+          },
+          "Composition": "Medium horizontal prop cluster, 4:3, transparent background, confident and organized."
+        },
+        {
+          "Name": "Compass Reins",
+          "GraphicRole": "swimlane-anchor-prop",
+          "ContentDescription": "Leather reins gracefully looped around a bronze compass rose, with the compass needle glowing softly toward a chosen path.",
+          "Subject": {
+            "Type": "compass",
+            "EmotionOrTheme": "agency",
+            "SymbolicMeaning": "Human direction and intentional AI use"
+          },
+          "Composition": "Readable from Mural distance, no text, no map labels."
+        },
+        {
+          "Name": "Overloaded Scroll Pack",
+          "GraphicRole": "swimlane-anchor-prop",
+          "ContentDescription": "A sagging travel pack overloaded with blank scrolls, loose straps, and several teal-glowing request slips spilling out.",
+          "Subject": {
+            "Type": "tool-belt",
+            "EmotionOrTheme": "overwork",
+            "SymbolicMeaning": "Working for AI, process serving the tool"
+          },
+          "Composition": "Playfully messy, not dark, transparent background."
+        },
+        {
+          "Name": "Awkward Bridle on AI Orbs",
+          "GraphicRole": "swimlane-anchor-prop",
+          "ContentDescription": "A leather bridle awkwardly wrapped around a small stack of glowing teal AI orbs, with buckles not quite fitting.",
+          "Subject": {
+            "Type": "bridle",
+            "EmotionOrTheme": "overwork",
+            "SymbolicMeaning": "Misalignment where people adapt to the tool instead of the tool helping people"
+          },
+          "Composition": "Humorous prop cluster, transparent background, avoid making the AI orbs menacing."
+        }
+      ]
+    },
+    {
+      "ExerciseNumber": 3,
+      "ExerciseName": "Private Curiosity Framework Reflection",
+      "ParticipantAction": "People privately answer four reflection questions at their desks.",
+      "Props": [
+        {
+          "Name": "What You Know Scroll",
+          "GraphicRole": "reflection-question-icon",
+          "ContentDescription": "An unfurled parchment scroll held open by a small horseshoe weight, with decorative non-readable marks and a subtle teal constellation thread.",
+          "Subject": {
+            "Type": "scroll",
+            "EmotionOrTheme": "learning",
+            "SymbolicMeaning": "What do you know? What did you use it for this week? What did you learn?"
+          },
+          "Composition": "Centered 1:1 icon, no real writing."
+        },
+        {
+          "Name": "Need-to-Know Spyglass",
+          "GraphicRole": "reflection-question-icon",
+          "ContentDescription": "A brass spyglass with leather grip aimed toward a tiny teal glint, resting on a folded blank map.",
+          "Subject": {
+            "Type": "spyglass",
+            "EmotionOrTheme": "curiosity",
+            "SymbolicMeaning": "What do you need to know? What do you want to learn next?"
+          },
+          "Composition": "Simple diagonal silhouette, transparent background."
+        },
+        {
+          "Name": "Where You Are Trail Cairn",
+          "GraphicRole": "reflection-question-icon",
+          "ContentDescription": "A small stack of warm grey trail stones with a bronze compass needle and two hoofprints beside it.",
+          "Subject": {
+            "Type": "mountain-marker",
+            "EmotionOrTheme": "self-location",
+            "SymbolicMeaning": "Where are you at? How do you see AI's impact on your job?"
+          },
+          "Composition": "Grounded, calm, centered object, no landscape background."
+        },
+        {
+          "Name": "Where You Are Going Path Marker",
+          "GraphicRole": "reflection-question-icon",
+          "ContentDescription": "A forked-path marker made of carved wood and antique-gold trim with two blank pennants and a subtle teal light path leading forward.",
+          "Subject": {
+            "Type": "banner-pennant",
+            "EmotionOrTheme": "future-direction",
+            "SymbolicMeaning": "Where are you going? What do you want AI's impact to be?"
+          },
+          "Composition": "Optimistic upward angle, warm sunrise rim light, no words on pennants."
+        }
+      ]
+    },
+    {
+      "ExerciseNumber": 4,
+      "ExerciseName": "Engaging Direct Reports Around the Curiosity Framework",
+      "ParticipantAction": "People put stickies around a target about how they could engage direct reports.",
+      "Props": [
+        {
+          "Name": "Compass Target",
+          "GraphicRole": "curiosity-target-prop",
+          "ContentDescription": "A circular target blended with a compass rose, antique-gold rings, navy tick marks, and a tiny teal center glow.",
+          "Subject": {
+            "Type": "target",
+            "EmotionOrTheme": "team-coaching",
+            "SymbolicMeaning": "Focused engagement with reports"
+          },
+          "Composition": "Top-down circular icon, transparent background, no numbers."
+        },
+        {
+          "Name": "Conversation Campfire",
+          "GraphicRole": "curiosity-target-prop",
+          "ContentDescription": "A small warm campfire circle with three blank parchment cards and three tiny hoofprints arranged around it.",
+          "Subject": {
+            "Type": "campfire-circle",
+            "EmotionOrTheme": "supportive",
+            "SymbolicMeaning": "Curious conversation with direct reports"
+          },
+          "Composition": "Inviting circular cluster, 1:1, transparent background."
+        },
+        {
+          "Name": "Curiosity Arrow Ring",
+          "GraphicRole": "curiosity-target-prop",
+          "ContentDescription": "Four friendly feathered arrows curving inward toward a soft teal glow, with antique-gold arrowheads and no written question marks.",
+          "Subject": {
+            "Type": "arrow",
+            "EmotionOrTheme": "curiosity",
+            "SymbolicMeaning": "Many ways to invite the same conversation"
+          },
+          "Composition": "Radial ring, light and uncluttered, does not overpower sticky notes."
+        },
+        {
+          "Name": "Mentor Laurel Charm",
+          "GraphicRole": "curiosity-target-prop",
+          "ContentDescription": "A small laurel wreath tied with a leather cord, with a compass-star charm and a tiny teal spark tucked inside.",
+          "Subject": {
+            "Type": "laurel",
+            "EmotionOrTheme": "leadership",
+            "SymbolicMeaning": "Leader as guide and coach"
+          },
+          "Composition": "Simple centered icon, antique gold, transparent background."
+        }
+      ]
+    }
+  ],
+  "BoardSprinkleProps": [
+    {
+      "Name": "Hoofprint Pair",
+      "GraphicRole": "sticky-note-companion",
+      "ContentDescription": "Two soft terracotta-brown hoofprints with one tiny antique-gold sparkle.",
+      "Use": "Tiny corner decoration or trail marker between exercises."
+    },
+    {
+      "Name": "Compass Star Pin",
+      "GraphicRole": "sticky-note-companion",
+      "ContentDescription": "A small antique-gold compass-star pushpin with a navy shadow.",
+      "Use": "Sticky-note cluster decoration."
+    },
+    {
+      "Name": "Blank Navy Pennant",
+      "GraphicRole": "sticky-note-companion",
+      "ContentDescription": "A small blank navy pennant with gold trim on a carved wooden pole.",
+      "Use": "Board edge decoration; must contain no symbol or word."
+    },
+    {
+      "Name": "Tiny Teal Spark",
+      "GraphicRole": "sticky-note-companion",
+      "ContentDescription": "A contained teal AI spark with two warm gold motes, soft and not neon.",
+      "Use": "Light AI presence near prompts or examples."
+    },
+    {
+      "Name": "Leather Strap Divider",
+      "GraphicRole": "divider-ornament",
+      "ContentDescription": "A thin curved leather strap with two bronze rivets and a tiny compass-star charm.",
+      "Use": "Horizontal section separation."
+    },
+    {
+      "Name": "Mountain Line Ornament",
+      "GraphicRole": "divider-ornament",
+      "ContentDescription": "A pale blue distant mountain line with a tiny antique-gold sun and no scenery behind it.",
+      "Use": "Slide or Mural transition ornament."
+    }
+  ],
+  "PromptKeywords": [
+    "bright mythic adventure illustration",
+    "centaur workshop theme",
+    "polished storybook spot illustration",
+    "warm mountain light",
+    "antique gold",
+    "ink navy",
+    "leather and bronze",
+    "subtle teal AI glow",
+    "transparent background",
+    "no text",
+    "Mural sticker props"
+  ],
+  "NegativePromptKeywords": [
+    "no readable words",
+    "no labels",
+    "no fake text",
+    "no cyberpunk",
+    "no dystopian AI",
+    "no corporate stock vector art",
+    "no photorealism",
+    "no cluttered background",
+    "no scary horror mood"
+  ]
+}

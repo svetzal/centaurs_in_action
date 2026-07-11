@@ -1,0 +1,266 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "supporting-graphic.schema.json",
+  "title": "Centaur Gen AI Workshop Supporting Graphic Specification",
+  "description": "Creative-contract schema for a single supporting graphic, icon, sticker prop, ornament, or Mural anchor in the centaur Gen AI workshop visual system.",
+  "type": "object",
+  "required": [
+    "GraphicRole",
+    "ContentDescription",
+    "Output",
+    "Style",
+    "Subject",
+    "Composition",
+    "PromptKeywords"
+  ],
+  "properties": {
+    "GraphicRole": {
+      "type": "string",
+      "enum": [
+        "quadrant-emotion-icon",
+        "swimlane-anchor-prop",
+        "reflection-question-icon",
+        "curiosity-target-prop",
+        "centaur-world-prop",
+        "sticky-note-companion",
+        "divider-ornament",
+        "mural-anchor",
+        "slide-accent",
+        "prop-sheet-item"
+      ],
+      "description": "The functional role this graphic serves in the Mural or presentation."
+    },
+    "ContentDescription": {
+      "type": "string",
+      "description": "Plain-language creative brief for what the graphic should depict. Must not rely on words appearing in the image."
+    },
+    "ExerciseContext": {
+      "type": "object",
+      "description": "Optional workshop placement context.",
+      "properties": {
+        "ExerciseNumber": {
+          "type": "integer",
+          "enum": [1, 2, 3, 4]
+        },
+        "ExerciseName": {
+          "type": "string"
+        },
+        "QuestionOrArea": {
+          "type": "string"
+        },
+        "ParticipantAction": {
+          "type": "string"
+        },
+        "EmotionalTone": {
+          "type": "string",
+          "enum": [
+            "empowered",
+            "courageous",
+            "disempowered",
+            "afraid",
+            "curious",
+            "reflective",
+            "supportive",
+            "playful",
+            "analytical",
+            "leaderly"
+          ]
+        }
+      }
+    },
+    "Output": {
+      "type": "object",
+      "required": ["Format", "AspectRatio", "Background", "IntendedUse"],
+      "properties": {
+        "Format": {
+          "type": "string",
+          "enum": ["transparent-png", "png-on-warm-white", "svg-like-png", "contact-sheet-png"]
+        },
+        "AspectRatio": {
+          "type": "string",
+          "enum": ["1:1", "4:3", "3:4", "16:9", "9:16", "freeform-cutout"]
+        },
+        "Size": {
+          "type": "string",
+          "description": "Target output dimensions, for example 1024x1024 or 1536x1024."
+        },
+        "Background": {
+          "type": "string",
+          "enum": ["transparent", "pure warm white", "plain white", "none"]
+        },
+        "IntendedUse": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Mural sticker", "Mural exercise anchor", "slide accent", "slide section marker", "decorative divider", "printable worksheet accent"]
+          }
+        },
+        "Cropping": {
+          "type": "string",
+          "description": "How much padding and isolation the object needs."
+        }
+      }
+    },
+    "Style": {
+      "type": "object",
+      "required": ["VisualSystem", "Rendering", "Palette", "Linework", "Mood"],
+      "properties": {
+        "VisualSystem": {
+          "type": "string",
+          "description": "Usually: Leadership in a Gen AI World - Centaur Visual System."
+        },
+        "Rendering": {
+          "type": "string",
+          "description": "Rendering style and quality level."
+        },
+        "Palette": {
+          "type": "object",
+          "properties": {
+            "Primary": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "Accents": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "Treatment": {
+              "type": "string"
+            }
+          }
+        },
+        "Linework": {
+          "type": "string"
+        },
+        "Lighting": {
+          "type": "string"
+        },
+        "Mood": {
+          "type": "string"
+        },
+        "Texture": {
+          "type": "string"
+        }
+      }
+    },
+    "Subject": {
+      "type": "object",
+      "required": ["Name", "Type", "Description", "SymbolicMeaning"],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Human-readable name for the graphic."
+        },
+        "Type": {
+          "type": "string",
+          "enum": [
+            "compass",
+            "torch",
+            "lantern",
+            "shield",
+            "map",
+            "scroll",
+            "target",
+            "arrow",
+            "horseshoe",
+            "saddle",
+            "reins",
+            "bridle",
+            "banner-pennant",
+            "laurel",
+            "mountain-marker",
+            "campfire-circle",
+            "spyglass",
+            "tool-belt",
+            "question-medallion",
+            "hoofprint-trail",
+            "ai-orb",
+            "constellation-thread",
+            "centaur-silhouette",
+            "reverse-centaur-silhouette",
+            "hybrid-prop",
+            "ornament"
+          ]
+        },
+        "Description": {
+          "type": "string",
+          "description": "Concrete visible features to render."
+        },
+        "SymbolicMeaning": {
+          "type": "string",
+          "description": "What the subject represents in the workshop."
+        },
+        "AIMotif": {
+          "type": "string",
+          "enum": ["none", "teal glow", "constellation nodes", "circuit engraving", "floating spark motes", "crystal lens", "threaded light path"]
+        },
+        "CentaurMotif": {
+          "type": "string",
+          "enum": ["none", "horseshoe", "hoofprint", "mane-hair tassel", "leather tack", "saddle brass", "tail-like flourish", "centaur silhouette"]
+        },
+        "EmotionOrTheme": {
+          "type": "string",
+          "enum": [
+            "empowerment",
+            "courage",
+            "disempowerment",
+            "fear",
+            "agency",
+            "partnership",
+            "overwork",
+            "curiosity",
+            "learning",
+            "self-location",
+            "future-direction",
+            "team-coaching",
+            "leadership"
+          ]
+        },
+        "ReferenceImage": {
+          "type": "string",
+          "description": "Optional path to an image reference for this specific subject."
+        }
+      }
+    },
+    "Composition": {
+      "type": "object",
+      "required": ["Framing", "View", "BackgroundTreatment", "TextPolicy"],
+      "properties": {
+        "Framing": {
+          "type": "string",
+          "description": "How the graphic sits in frame."
+        },
+        "View": {
+          "type": "string",
+          "enum": ["front", "three-quarter", "side", "top-down", "flat-ornament", "isometric", "silhouette"]
+        },
+        "BackgroundTreatment": {
+          "type": "string"
+        },
+        "TextPolicy": {
+          "type": "string",
+          "enum": ["no text", "no readable text", "decorative marks only"]
+        },
+        "ScaleReadability": {
+          "type": "string",
+          "description": "Minimum readable size or intended small-scale behavior."
+        },
+        "Shadow": {
+          "type": "string"
+        }
+      }
+    },
+    "PromptKeywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "NegativePromptKeywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "GenerationNotes": {
+      "type": "string",
+      "description": "Free-form extra direction for image generation."
+    }
+  }
+}
