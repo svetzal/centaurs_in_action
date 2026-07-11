@@ -833,9 +833,13 @@ h3 {
   transition: opacity 180ms ease, transform 180ms ease;
 }
 
+.expressions[data-form="reverse"] .expression__portrait {
+  height: clamp(17rem, 27vw, 23.5rem);
+}
+
 .expressions[data-form="reverse"] .expression__portrait img {
   width: auto;
-  height: clamp(10.5rem, 17vw, 15.25rem);
+  height: clamp(15.75rem, 25.5vw, 22.875rem);
   max-width: 100%;
   max-height: none;
   margin-bottom: 0.35rem;
