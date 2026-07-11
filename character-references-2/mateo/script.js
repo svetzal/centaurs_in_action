@@ -6,8 +6,10 @@ const forms = {
 const labels = ["Attentive", "Curious", "Encouraged", "Concerned", "Reconsidering"];
 const buttons = document.querySelectorAll("[data-form]");
 const expressions = document.querySelectorAll(".expression");
+const expressionGrid = document.querySelector("[data-expression-grid]");
 
 function setForm(form) {
+  expressionGrid.dataset.form = form;
   buttons.forEach((button) => {
     const active = button.dataset.form === form;
     button.classList.toggle("is-active", active);

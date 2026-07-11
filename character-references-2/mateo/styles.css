@@ -247,13 +247,15 @@ h3 {
 .alternate-form {
   position: absolute;
   right: var(--space-4);
-  bottom: var(--space-4);
+  bottom: var(--space-5);
   z-index: 2;
-  display: grid;
-  place-items: end center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 9.5rem;
-  height: 19rem;
-  padding: 2.4rem 0.65rem 0.65rem;
+  height: 20rem;
+  padding: 3rem 0.65rem 0.85rem;
+  overflow: hidden;
   background: rgba(255, 253, 247, 0.9);
   border: 1px solid rgba(22, 42, 62, 0.2);
   border-radius: 6rem 6rem var(--radius-md) var(--radius-md);
@@ -268,8 +270,10 @@ h3 {
 }
 
 .alternate-form img {
+  display: block;
   width: 100%;
-  height: calc(100% - 1.2rem);
+  height: 100%;
+  max-height: 15.8rem;
   object-fit: contain;
   object-position: center bottom;
 }
@@ -827,6 +831,14 @@ h3 {
   object-fit: contain;
   object-position: center bottom;
   transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.expressions[data-form="reverse"] .expression__portrait img {
+  width: auto;
+  height: clamp(8.5rem, 14vw, 12.5rem);
+  max-width: 84%;
+  max-height: none;
+  margin-bottom: 0.45rem;
 }
 
 .expression.is-changing img {
