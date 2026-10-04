@@ -22,6 +22,10 @@
     "bio": "Ari is curious enough to test almost anything and skeptical enough not to fall in love with the first result. They listen for assumptions hiding inside a question. Their presence can slow a conversation down, but usually because the group is about to learn something it would otherwise miss."
   },
   "storytelling": {
+    "inner_thoughts": {
+      "centred": "Lovely theory. What’s the smallest test that could prove me wrong?",
+      "captured": "What if the exception I miss is the one that matters?"
+    },
     "title": "The useful question",
     "origin": "Ari became a trusted researcher by writing down what would disprove an idea before running the experiment. They remember how easily a polished demonstration can become a promise. Their notebook keeps failed predictions beside successful ones; the crossed-out page is often the page they are happiest to show.",
     "want": "To give people enough honest evidence to choose well, especially when a confident system makes certainty easy to perform.",

@@ -22,6 +22,10 @@
     "bio": "Noor notices weak signals before they become obvious. They connect stories, data, and intuition into possible futures, then invite others to decide which future is worth building. Their imagination is disciplined, although their attention can travel much farther ahead than everyone else's."
   },
   "storytelling": {
+    "inner_thoughts": {
+      "centred": "Those small changes are connected. There’s still a choice we can make today.",
+      "captured": "There must be another possibility. I’m not ready to close the map."
+    },
     "title": "The future still open",
     "origin": "Noor collects small changes that others dismiss as unrelated: a new use for an old space, an altered routine, a story that begins appearing in different places. They learned to lay several futures beside one another instead of offering a single prediction. Their work gives people time to choose while choices are still available.",
     "want": "To help people recognize which futures their everyday choices are beginning to make possible.",

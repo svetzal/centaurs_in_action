@@ -1,5 +1,6 @@
 {
   "celeste": {
+    "inner_thoughts": {"centred": "I haven’t mapped it all, but I can show them where people get stranded.", "captured": "If I’ve missed someone, this could hurt them. I need to look again."},
     "title": "The humane path",
     "origin": "Celeste learned to map a service by walking it with the person who found it hardest to use. A beautifully ordered route could still leave someone stranded at a locked door. She now carries two versions of every map: the official path and the path people actually take. Her authority comes from bringing those two pictures into the same conversation.",
     "want": "To make a shared journey intelligible without asking people to become simpler than they are.",
@@ -20,6 +21,7 @@
     "avoid": "Do not bleach her human skin, straighten or shorten her curls, replace quiet discernment with aloofness, or turn her into a decorative muse. White feather and thread are motifs, not wings or a halo."
   },
   "ari": {
+    "inner_thoughts": {"centred": "Lovely theory. What’s the smallest test that could prove me wrong?", "captured": "What if the exception I miss is the one that matters?"},
     "title": "The useful question",
     "origin": "Ari became a trusted researcher by writing down what would disprove an idea before running the experiment. They remember how easily a polished demonstration can become a promise. Their notebook keeps failed predictions beside successful ones; the crossed-out page is often the page they are happiest to show.",
     "want": "To give people enough honest evidence to choose well, especially when a confident system makes certainty easy to perform.",
@@ -40,6 +42,7 @@
     "avoid": "Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
   },
   "imani": {
+    "inner_thoughts": {"centred": "She hasn’t spoken yet. I can make room without answering for her.", "captured": "I’ll take this one too. At least then I’ll know it gets done."},
     "title": "Belonging with a backbone",
     "origin": "Imani's authority grew through keeping small promises: returning a key, remembering an absent person, and checking whether a decision worked once the meeting ended. She knows how easily a community project can depend on invisible labour. People trust her because care and accountability arrive together.",
     "want": "To build a community capable of difficult work without treating anyone as expendable, including herself.",
@@ -60,6 +63,7 @@
     "avoid": "Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
   },
   "bram": {
+    "inner_thoughts": {"centred": "Ah, there’s the failure. I can make this hold—and show them how.", "captured": "Another clever plan. I know who’ll be here fixing it when it breaks."},
     "title": "Something you can depend on",
     "origin": "Bram learned that a repair is unfinished until someone else can understand it. Shared infrastructure taught him to respect ordinary parts, patient inspection and the person who will be on call after he leaves. He keeps a battered component that once solved a supposedly impossible failure as a reminder to look closely before declaring defeat.",
     "want": "To make systems dependable enough that people can stop worrying about them and get on with their lives.",
@@ -80,6 +84,7 @@
     "avoid": "Do not stretch him into Mateo's tall heroic build, remove his freckles or beard, or make him a lumbering comic mechanic. Physical strength accompanies patience and intelligence. Machinery should not obscure his hands or face."
   },
   "noor": {
+    "inner_thoughts": {"centred": "Those small changes are connected. There’s still a choice we can make today.", "captured": "There must be another possibility. I’m not ready to close the map."},
     "title": "The future still open",
     "origin": "Noor collects small changes that others dismiss as unrelated: a new use for an old space, an altered routine, a story that begins appearing in different places. They learned to lay several futures beside one another instead of offering a single prediction. Their work gives people time to choose while choices are still available.",
     "want": "To help people recognize which futures their everyday choices are beginning to make possible.",
@@ -100,6 +105,7 @@
     "avoid": "Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
   },
   "rowan": {
+    "inner_thoughts": {"centred": "The route’s gone. The purpose hasn’t. Let me get everyone pointed the same way.", "captured": "Too slow. We need to turn now; I’ll explain once we’re moving."},
     "title": "Change with a centre",
     "origin": "Rowan found a place in the gap between the plan and what actually happened. They learned to give a disrupted group something useful to do, then stay for the quieter work of understanding the event. Their after-action journal records what helped people recover as carefully as what brought the incident under control.",
     "want": "To help people adapt under pressure and recognize their own capacity once the immediate crisis has passed.",

@@ -22,6 +22,10 @@
     "bio": "Bram trusts things he can inspect, repair, and explain. He is happiest beside a half-built mechanism with three friends and the wrong tool. His humour makes failure feel survivable, and his patience makes difficult systems teachable."
   },
   "storytelling": {
+    "inner_thoughts": {
+      "centred": "Ah, there’s the failure. I can make this hold—and show them how.",
+      "captured": "Another clever plan. I know who’ll be here fixing it when it breaks."
+    },
     "title": "Something you can depend on",
     "origin": "Bram learned that a repair is unfinished until someone else can understand it. Shared infrastructure taught him to respect ordinary parts, patient inspection and the person who will be on call after he leaves. He keeps a battered component that once solved a supposedly impossible failure as a reminder to look closely before declaring defeat.",
     "want": "To make systems dependable enough that people can stop worrying about them and get on with their lives.",

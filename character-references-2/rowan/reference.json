@@ -22,6 +22,10 @@
     "bio": "Rowan is at their best when the original plan has stopped being useful. They can take command without becoming controlling, change shape without losing their centre, and turn a difficult event into shared learning. Their appetite for adaptation sometimes makes consistency feel less valuable than it is."
   },
   "storytelling": {
+    "inner_thoughts": {
+      "centred": "The route’s gone. The purpose hasn’t. Let me get everyone pointed the same way.",
+      "captured": "Too slow. We need to turn now; I’ll explain once we’re moving."
+    },
     "title": "Change with a centre",
     "origin": "Rowan found a place in the gap between the plan and what actually happened. They learned to give a disrupted group something useful to do, then stay for the quieter work of understanding the event. Their after-action journal records what helped people recover as carefully as what brought the incident under control.",
     "want": "To help people adapt under pressure and recognize their own capacity once the immediate crisis has passed.",

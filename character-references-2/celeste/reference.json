@@ -22,6 +22,10 @@
     "bio": "Celeste notices the experience between the milestones. She sees where people lose confidence, where instructions ask too much, and where a small gesture can make a difficult path feel humane. She is composed and observant, with a dry sense of humour that appears when people least expect it."
   },
   "storytelling": {
+    "inner_thoughts": {
+      "centred": "I haven’t mapped it all, but I can show them where people get stranded.",
+      "captured": "If I’ve missed someone, this could hurt them. I need to look again."
+    },
     "title": "The humane path",
     "origin": "Celeste learned to map a service by walking it with the person who found it hardest to use. A beautifully ordered route could still leave someone stranded at a locked door. She now carries two versions of every map: the official path and the path people actually take. Her authority comes from bringing those two pictures into the same conversation.",
     "want": "To make a shared journey intelligible without asking people to become simpler than they are.",

@@ -66,6 +66,8 @@ for number, (slug, story) in enumerate(STORIES.items(), 2):
         expressions += f'<figure class="expression"><div class="expression__portrait"><img src="assets/human-{key}.png" alt="{name} {label.lower()} in centaur form" data-emotion="{label.lower()}" data-expression="{key}" loading="lazy"></div><figcaption>{label}</figcaption></figure>'
     values = {key: esc(story[key]) for key in ['title','centred','captured','continuity','avoid','origin','candid']}
     values.update({
+        'centred_thought': esc(story['inner_thoughts']['centred']),
+        'captured_thought': esc(story['inner_thoughts']['captured']),
         'subject_pronoun': 'she' if slug in ['celeste','imani'] else 'he' if slug == 'bram' else 'they',
         'possessive': 'her' if slug in ['celeste','imani'] else 'his' if slug == 'bram' else 'their',
         'name': name, 'number': f'{number:02}', 'role_short': ROLES[number-2],
