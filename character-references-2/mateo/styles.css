@@ -254,8 +254,8 @@ h3 {
   justify-content: flex-end;
   width: 9.5rem;
   height: 20rem;
-  padding: 3rem 0.65rem 0.85rem;
-  overflow: hidden;
+  padding: 0.85rem 0.65rem 3rem;
+  overflow: visible;
   background: rgba(255, 253, 247, 0.9);
   border: 1px solid rgba(22, 42, 62, 0.2);
   border-radius: 6rem 6rem var(--radius-md) var(--radius-md);
@@ -263,7 +263,7 @@ h3 {
 }
 
 .alternate-form__label {
-  top: 0.75rem;
+  bottom: 0.75rem;
   left: 50%;
   width: max-content;
   transform: translateX(-50%);
@@ -1041,7 +1041,5 @@ h3 {
 .cast-navigation a[aria-current] { color: var(--gold-light); }
 .cast-navigation a:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 4px; }
 
-/* Let the state badge sit over the arch without clipping its lettering. */
-.alternate-form { overflow: visible; }
 .character-stage__centaur { bottom: 3.75rem; max-height: calc(100% - 6rem); }
 .stage-note { width: calc(100% - 13rem); }
