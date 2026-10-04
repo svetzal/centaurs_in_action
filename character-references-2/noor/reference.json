@@ -122,5 +122,27 @@
       "prompt": "Character: Noor (they/them). Use the attached Noor reference sheet as the identity authority. Form: Centaur. Preserve golden-brown skin with the reference's vitiligo distribution across face and exposed arms, very tall narrow frame and long limbs, asymmetric dark curls with a cropped side, charcoal-violet wraps with gold trim, pale palomino coat with cream patches and cream tail. Reverse form keeps corresponding cream markings on a palomino horse head, the same patterned human arms, dark wraps and trousers. Match the reference's marking placement across shots. Scene: Noor folds away all but two routes and points to a small reversible change in a shared plan. Imani holds the present task between them. Noor's gaze meets hers; the return is connection with the people in the room. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
     }
   ],
-  "reference_sheet": "../nonbinary-medium-skin-wiry-palomino-centaur-character-study.png"
+  "reference_sheet": "../nonbinary-medium-skin-wiry-palomino-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Folding star map",
+      "image": "../../adventurer-props/transparent-1024/folding-star-map.png",
+      "alt": "Folding parchment star map with several linked routes"
+    },
+    {
+      "title": "Prism lens",
+      "image": "../../adventurer-props/transparent-1024/puzzle-prism-lens.png",
+      "alt": "Faceted prism in a brass hand lens"
+    },
+    {
+      "title": "Weather vane charm",
+      "image": "../../adventurer-props/transparent-1024/pocket-weather-vane.png",
+      "alt": "Compact brass weather vane charm"
+    },
+    {
+      "title": "Golden thread",
+      "image": "../../adventurer-props/transparent-1024/constellation-thread-spool.png",
+      "alt": "Golden thread wound around a wood and brass spool"
+    }
+  ]
 }

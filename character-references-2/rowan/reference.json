@@ -122,5 +122,27 @@
       "prompt": "Character: Rowan (they/she/he, depending on the day). Use the attached Rowan reference sheet as the identity authority. Form: Centaur. Keep fair freckled skin, medium height, broad athletic build, long copper hair with one shaved side, indigo and muted magenta layers, rope belt, blue-roan horse coat and copper mane/tail accents. Reverse form has a blue-roan horse head, copper mane, the same athletic human body, indigo-magenta clothing and dark trousers. Pronouns are they/she/he depending on the day; these dossiers use they/them. Establish the day's pronouns in a scene brief and keep them consistent across that sequence. Scene: At the same junction, Rowan lowers the signalling hand, faces the group and marks one route with a knot ring. Celeste checks a traveller's understanding. Rowan's expression is candid and steady; the others have time to respond. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Genderfluidity is part of Rowan's identity, never a symptom of pressure or a synonym for unreliable behaviour. Do not change gender presentation automatically when the form changes, erase freckles or the shaved side, or make every scene an emergency. For magenta-key cutouts use the reference's muted wine-magenta fabric, never exact #ff00ff in the subject."
     }
   ],
-  "reference_sheet": "../genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png"
+  "reference_sheet": "../genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Signal flare",
+      "image": "../../adventurer-props/transparent-1024/question-flare-arrows.png",
+      "alt": "Brass-tipped signal flare arrows bound with a leather tie"
+    },
+    {
+      "title": "Weather vane",
+      "image": "../../adventurer-props/transparent-1024/pocket-weather-vane.png",
+      "alt": "Small portable brass weather vane"
+    },
+    {
+      "title": "Knot rings",
+      "image": "../../adventurer-props/transparent-1024/knot-rings.png",
+      "alt": "Brass rings joined by short pieces of knotted rope"
+    },
+    {
+      "title": "After-action journal",
+      "image": "../../adventurer-props/transparent-1024/field-notebook.png",
+      "alt": "Open leather after-action journal with a ribbon bookmark"
+    }
+  ]
 }

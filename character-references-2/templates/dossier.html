@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{name} — illustrated character dossier, pack contents, agency states and storytelling image prompts.">
+  <title>{name} — Character Dossier · Centaurs in Action</title>
+  <link rel="stylesheet" href="../dossier.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to dossier</a>
+  {navigation}
+  <main id="main" class="page-shell">
+    <article class="dossier" aria-labelledby="character-name">
+      <header class="masthead">
+        <div class="masthead__eyebrow"><span>Field dossier</span><span aria-hidden="true">✦</span><span>{role_short} {number}</span></div>
+        <div class="masthead__title-row"><div><p class="kicker">{role}</p><h1 id="character-name">{name}</h1></div><p class="pronouns">{pronouns}</p></div>
+        <p class="essence">{essence}</p>
+      </header>
+      <nav class="section-nav" aria-label="Dossier sections"><a href="#identity">Identity</a><a href="#agency">Agency</a><a href="#pack">In the pack</a><a href="#expressions">Expressions</a><a href="#personality">Personality</a><a href="#relationships">Relationships</a><a href="#scenes">Scene briefs</a></nav>
+      <section id="identity" class="hero-grid" aria-label="Character overview">
+        <div class="character-stage">
+          <div class="character-stage__label">Strength-centred</div><div class="sun-mark" aria-hidden="true"></div>
+          <img class="character-stage__centaur" src="assets/centaur-full-body.png" alt="{name} in full centaur form">
+          <div class="alternate-form"><span class="alternate-form__label">Weakness-centred</span><img src="assets/reverse-full-body.png" alt="{name} in full reverse-centaur form"></div>
+          <p class="stage-note">{impression}</p>
+        </div>
+        <div class="character-story">
+          <section class="story-block"><p class="section-label">Place in society</p><h2>{title}</h2><p>{society}</p></section>
+          <figure class="quote-card"><blockquote>“{phrase}”</blockquote><figcaption>— {name}’s guiding phrase</figcaption></figure>
+          <section class="tension-grid" aria-label="Leadership profile"><div><p class="section-label">At {possessive} best</p><p>{strength}</p></div><div><p class="section-label">Watch for</p><p>{shadow}</p></div></section>
+          <a class="reference-link" href="{reference}" download>Download original reference sheet ↓</a>
+        </div>
+      </section>
+      <section id="agency" class="agency-lens" aria-labelledby="agency-title">
+        <header class="agency-lens__heading"><div><p class="section-label">The agency lens</p><h2 id="agency-title">Two forms. One person.</h2></div><p>The form reveals where {name}’s attention is centred—and whether {subject_pronoun} can shape what happens next.</p></header>
+        <div class="agency-states">
+          <article class="agency-state agency-state--centaur"><div class="agency-state__art"><span class="agency-state__number">01</span><img src="assets/centaur-full-body.png" alt="{name}, centred in strengths"></div><div class="agency-state__story"><p class="section-label">Centaur · strengths in focus</p><h3>“I can shape what happens next.”</h3><p>{centred}</p><dl class="agency-signals"><div><dt>Strength</dt><dd>{strength}</dd></div><div><dt>Posture</dt><dd>{centred_cue}</dd></div></dl></div></article>
+          <article class="agency-state agency-state--reverse"><div class="agency-state__art"><span class="agency-state__number">02</span><img src="assets/reverse-full-body.png" alt="{name}, attention captured by pressure"></div><div class="agency-state__story"><p class="section-label">Reverse-centaur · pressure-captured</p><h3>“The world is deciding who I am.”</h3><p>{captured}</p><dl class="agency-signals"><div><dt>Shadow</dt><dd>{shadow}</dd></div><div><dt>Posture</dt><dd>{captured_cue}</dd></div></dl></div></article>
+        </div>
+        <aside class="return-path" aria-label="Return to agency"><div class="return-path__message"><p class="section-label">The way back</p><h3>Awareness is the first act of agency.</h3><p>The reverse-centaur is a state to recognize, not a self to reject. {name} returns by recovering one available strength and acting from it.</p></div><ol class="return-path__steps">{return_steps}</ol></aside>
+        <details class="pressure-notes"><summary>Recognizable pressure points</summary>{triggers}</details>
+      </section>
+      <section id="pack" class="detail-grid">
+        <div class="stats-panel" aria-labelledby="characteristics-title"><div class="section-heading"><div><p class="section-label">D&amp;D-style characteristics</p><h2 id="characteristics-title">How {name} moves</h2></div><span class="scale-note">1–20 scale</span></div><div class="stats" role="list">{stats}</div><p class="caption">The same person, with the same strengths, in both forms.</p></div>
+        <div class="objects-panel" aria-labelledby="objects-title"><div class="section-heading"><div><p class="section-label">Tools for the journey</p><h2 id="objects-title">Inside {name}’s pack</h2></div></div><div class="object-list">{props}</div><p class="caption">{motifs}. Pack only what the scene needs.</p></div>
+      </section>
+      <section id="expressions" class="expression-panel" aria-labelledby="expressions-title">
+        <div class="expression-panel__heading"><div><p class="section-label">Emotional range</p><h2 id="expressions-title">The face behind the role</h2></div><div class="form-toggle" aria-label="Expression form" hidden><button class="form-toggle__button is-active" type="button" data-form="human" aria-pressed="true">Centaur state</button><button class="form-toggle__button" type="button" data-form="reverse" aria-pressed="false">Reverse state</button></div></div>
+        <div class="expressions" data-expression-grid data-character="{name}" data-form="human">{expressions}</div>
+        <p class="expression-tell">{emotional_tells}</p>
+        <details><summary>Direction notes for the five expressions</summary><div class="emotion-notes">{emotion_notes}</div></details>
+        <p class="caption">Portraits follow the original identity references. <a href="{reference}">View both complete expression sets →</a></p>
+      </section>
+      <section class="story-section continuity" aria-labelledby="continuity-title"><p class="section-label">Keep consistent across images</p><h2 id="continuity-title">Identity in every frame</h2>{appearance}<p>{continuity}</p><p class="asset-downloads"><a href="assets/centaur-full-body.png" download>Centaur PNG ↓</a> · <a href="assets/reverse-full-body.png" download>Reverse-centaur PNG ↓</a></p><details><summary>Continuity boundaries and things to avoid</summary><p>{avoid}</p><p>Both forms belong to the same person. Neither sadness nor happiness determines the form: a centaur can be worried and act with agency; a reverse-centaur can smile while seeking approval. Keep both forms dignified and fully clothed as shown. Body-art diagrams and added tattoos are excluded.</p><p>The original sheet anchors appearance. Pack contents and scene briefs extend the storytelling vocabulary; include only what the scene needs.</p></details></section>
+      <section id="personality" class="story-section"><p class="section-label">Personality and story foundation</p><h2>The person behind the role</h2><div class="two-columns"><div><p>{bio}</p><p>{origin}</p></div>{personality}</div><div class="two-columns">{motivation}{boundaries}</div><aside class="candid"><h3>A quiet moment</h3><p>{candid}</p></aside></section>
+      <section id="relationships" class="story-section"><p class="section-label">The ensemble</p><h2>Strengths in conversation</h2><div class="relationship-grid">{relationships}</div><p class="caption">These are complementary tensions. Any character can lead, be mistaken, change their mind or need support.</p></section>
+      <section id="scenes" class="story-section"><p class="section-label">Ready for storytelling images</p><h2>Three scenes to begin with</h2><p>Attach the original character sheet with a prompt. For ensemble scenes, attach each named character’s sheet as well. The brief fixes identity and intent while leaving room for composition.</p><div class="scenes">{scenes}</div><a class="reference-link" href="reference.json" download>Download complete dossier and prompts (JSON) ↓</a><p class="copy-status" role="status" aria-live="polite"></p></section>
+      <footer class="dossier-footer"><span>Centaurs in Action · {name}</span><a href="../../#cast">Return to the cast →</a></footer>
+    </article>
+  </main>
+  <script src="../dossier.js"></script>
+</body>
+</html>

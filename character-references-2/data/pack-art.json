@@ -1,0 +1,38 @@
+{
+  "celeste": [
+    ["folding-star-map", "Orientation", "Folded parchment journey map with brass corners"],
+    ["constellation-thread-spool", "Connection", "Wood and brass spool wound with golden thread"],
+    ["graphite-pencil", "Revision", "Cedar graphite pencil in a leather protective sleeve"],
+    ["bridge-rope-kit", "Crossing", "Coiled bridge cord with practical ties and clips"]
+  ],
+  "ari": [
+    ["puzzle-prism-lens", "Inquiry", "Triangular prism in a brass hand-lens frame"],
+    ["mirrored-hand-lens", "Perspective", "Small mirrored lens with brass frame and wooden handle"],
+    ["curiosity-keyring", "Possibility", "Brass question keys on a leather-trimmed key ring"],
+    ["field-notebook", "Evidence", "Open leather observation notebook with pencil and ribbon"]
+  ],
+  "imani": [
+    ["team-hearth-token", "Belonging", "Warm brass hearth token with a small protected light"],
+    ["bridge-rope-kit", "Support", "Loop of braided rope with bridge-building fittings"],
+    ["decision-scales-charm", "Accountability", "Small brass balance scales"],
+    ["curiosity-keyring", "Trust", "Ring of community keys with a leather tag"]
+  ],
+  "bram": [
+    ["saddlebag-puzzle-toolkit", "Craft", "Leather folding toolkit pack with hammer and practical supplies"],
+    ["spare-fasteners", "Repair", "Brass and iron fasteners in an open leather parts pouch"],
+    ["bridge-rope-kit", "Resilience", "Braided rope repair kit with ties and clips"],
+    ["brass-logic-tiles", "Reasoning", "Battered brass tiles for reasoning through connections"]
+  ],
+  "noor": [
+    ["folding-star-map", "Possibility", "Folding parchment star map with several linked routes"],
+    ["puzzle-prism-lens", "Perspective", "Faceted prism in a brass hand lens"],
+    ["pocket-weather-vane", "Signals", "Compact brass weather vane charm"],
+    ["constellation-thread-spool", "Connection", "Golden thread wound around a wood and brass spool"]
+  ],
+  "rowan": [
+    ["question-flare-arrows", "Coordination", "Brass-tipped signal flare arrows bound with a leather tie"],
+    ["pocket-weather-vane", "Conditions", "Small portable brass weather vane"],
+    ["knot-rings", "Commitment", "Brass rings joined by short pieces of knotted rope"],
+    ["field-notebook", "Learning", "Open leather after-action journal with a ribbon bookmark"]
+  ]
+}

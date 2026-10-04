@@ -122,5 +122,27 @@
       "prompt": "Character: Imani (she/her). Use the attached Imani reference sheet as the identity authority. Form: Centaur. Preserve very dark cool-brown skin, tall plus-size broad-hipped powerful build with soft definition, long black locs, gold jewellery, teal wrap blouse with gold edging, deep-bay coat and dark lower legs. Reverse form keeps her substantial body, loc-like black mane, bay horse head, teal blouse and dark loose trousers. Scene: Imani places one key in another person's open palm and speaks with calm directness. Her other hand is free. In the background two people take up a task together, showing responsibility becoming shared. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
     }
   ],
-  "reference_sheet": "../woman-dark-skin-plus-size-deep-bay-centaur-character-study.png"
+  "reference_sheet": "../woman-dark-skin-plus-size-deep-bay-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Hearth token",
+      "image": "../../adventurer-props/transparent-1024/team-hearth-token.png",
+      "alt": "Warm brass hearth token with a small protected light"
+    },
+    {
+      "title": "Bridge-rope loop",
+      "image": "../../adventurer-props/transparent-1024/bridge-rope-kit.png",
+      "alt": "Loop of braided rope with bridge-building fittings"
+    },
+    {
+      "title": "Small balance scale",
+      "image": "../../adventurer-props/transparent-1024/decision-scales-charm.png",
+      "alt": "Small brass balance scales"
+    },
+    {
+      "title": "Community keys",
+      "image": "../../adventurer-props/transparent-1024/curiosity-keyring.png",
+      "alt": "Ring of community keys with a leather tag"
+    }
+  ]
 }

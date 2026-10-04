@@ -122,5 +122,27 @@
       "prompt": "Character: Ari (they/them). Use the attached Ari reference sheet as the identity authority. Form: Centaur. Keep golden-brown skin, very tall lean wiry build, asymmetric dark curls with the reference's cropped side, expressive brows, gray dappled coat, charcoal draped tunic, violet and gold accents, pendant, cuffs and deliberate mixed-gender styling. Reverse form has a gray horse head, dark mane, the same draped styling, and dark trousers. Scene: Ari closes all but one notebook and places the remaining test between them and Mateo. Their shoulders relax as Mateo listens. An open doorway gives the group a visible next step without suggesting every uncertainty has vanished. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
     }
   ],
-  "reference_sheet": "../gender-neutral-tall-gray-centaur-character-study.png"
+  "reference_sheet": "../gender-neutral-tall-gray-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Puzzle prism",
+      "image": "../../adventurer-props/transparent-1024/puzzle-prism-lens.png",
+      "alt": "Triangular prism in a brass hand-lens frame"
+    },
+    {
+      "title": "Mirrored lens",
+      "image": "../../adventurer-props/transparent-1024/mirrored-hand-lens.png",
+      "alt": "Small mirrored lens with brass frame and wooden handle"
+    },
+    {
+      "title": "Question key",
+      "image": "../../adventurer-props/transparent-1024/curiosity-keyring.png",
+      "alt": "Brass question keys on a leather-trimmed key ring"
+    },
+    {
+      "title": "Observation notebook",
+      "image": "../../adventurer-props/transparent-1024/field-notebook.png",
+      "alt": "Open leather observation notebook with pencil and ribbon"
+    }
+  ]
 }

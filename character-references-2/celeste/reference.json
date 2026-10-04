@@ -122,5 +122,27 @@
       "prompt": "Character: Celeste (she/her). Use the attached Celeste reference sheet as the identity authority. Form: Centaur. Preserve abundant dark curls, warm tan skin, long-limbed athletic grace, ivory draped clothing, and the luminous white horse coat with subtle warm dappling. Reverse form has the reference's pale horse head, dark curly mane, ivory top and light trousers. Her white coat and ivory clothing must stay opaque when making cutouts. Scene: In the same planning space, Celeste opens only one section of the map and offers her pencil to a traveller. Her stance opens toward them. The map remains visibly incomplete; one shared correction is the meaningful change. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not bleach her human skin, straighten or shorten her curls, replace quiet discernment with aloofness, or turn her into a decorative muse. White feather and thread are motifs, not wings or a halo."
     }
   ],
-  "reference_sheet": "../female-white-centaur-character-study.png"
+  "reference_sheet": "../female-white-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Annotated journey map",
+      "image": "../../adventurer-props/transparent-1024/folding-star-map.png",
+      "alt": "Folded parchment journey map with brass corners"
+    },
+    {
+      "title": "Constellation thread",
+      "image": "../../adventurer-props/transparent-1024/constellation-thread-spool.png",
+      "alt": "Wood and brass spool wound with golden thread"
+    },
+    {
+      "title": "Graphite pencil",
+      "image": "../../adventurer-props/transparent-1024/graphite-pencil.png",
+      "alt": "Cedar graphite pencil in a leather protective sleeve"
+    },
+    {
+      "title": "Bridge cord",
+      "image": "../../adventurer-props/transparent-1024/bridge-rope-kit.png",
+      "alt": "Coiled bridge cord with practical ties and clips"
+    }
+  ]
 }

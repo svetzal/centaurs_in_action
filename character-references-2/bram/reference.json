@@ -122,5 +122,27 @@
       "prompt": "Character: Bram (he/him). Use the attached Bram reference sheet as the identity authority. Form: Centaur. Keep short compact stocky proportions, dense muscle, sturdy hands, light freckled skin, copper hair and beard, rust-red lace-neck tunic, near-black horse coat and copper accents in mane and tail. Reverse form has a near-black horse head with copper forelock and chin tuft, the same stocky human body, rust tunic and olive-brown trousers. Scene: At the same bench, Bram opens his toolkit and fixes one joint of Noor's rough model while Noor steadies it. Leave the rest unfinished. His raised brows and slight grin show that the evidence has earned another look. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not stretch him into Mateo's tall heroic build, remove his freckles or beard, or make him a lumbering comic mechanic. Physical strength accompanies patience and intelligence. Machinery should not obscure his hands or face."
     }
   ],
-  "reference_sheet": "../man-light-skin-stocky-black-centaur-character-study.png"
+  "reference_sheet": "../man-light-skin-stocky-black-centaur-character-study.png",
+  "pack_art": [
+    {
+      "title": "Folding toolkit",
+      "image": "../../adventurer-props/transparent-1024/saddlebag-puzzle-toolkit.png",
+      "alt": "Leather folding toolkit pack with hammer and practical supplies"
+    },
+    {
+      "title": "Spare fasteners",
+      "image": "../../adventurer-props/transparent-1024/spare-fasteners.png",
+      "alt": "Brass and iron fasteners in an open leather parts pouch"
+    },
+    {
+      "title": "Rope splice",
+      "image": "../../adventurer-props/transparent-1024/bridge-rope-kit.png",
+      "alt": "Braided rope repair kit with ties and clips"
+    },
+    {
+      "title": "Brass logic tile",
+      "image": "../../adventurer-props/transparent-1024/brass-logic-tiles.png",
+      "alt": "Battered brass tiles for reasoning through connections"
+    }
+  ]
 }

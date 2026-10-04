@@ -1040,3 +1040,8 @@ h3 {
 .cast-navigation a:first-child { margin-right: auto; }
 .cast-navigation a[aria-current] { color: var(--gold-light); }
 .cast-navigation a:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 4px; }
+
+/* Let the state badge sit over the arch without clipping its lettering. */
+.alternate-form { overflow: visible; }
+.character-stage__centaur { bottom: 3.75rem; max-height: calc(100% - 6rem); }
+.stage-note { width: calc(100% - 13rem); }

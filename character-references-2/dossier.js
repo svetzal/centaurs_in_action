@@ -19,3 +19,24 @@ for (const button of document.querySelectorAll('[data-copy]')) {
     }
   });
 }
+
+const expressionGrid = document.querySelector('[data-expression-grid]');
+const formToggle = document.querySelector('.form-toggle');
+if (expressionGrid && formToggle) {
+  formToggle.hidden = false;
+  for (const button of formToggle.querySelectorAll('[data-form]')) {
+    button.addEventListener('click', () => {
+      const form = button.dataset.form;
+      expressionGrid.dataset.form = form;
+      for (const other of formToggle.querySelectorAll('[data-form]')) {
+        const active = other === button;
+        other.classList.toggle('is-active', active);
+        other.setAttribute('aria-pressed', String(active));
+      }
+      for (const image of expressionGrid.querySelectorAll('[data-expression]')) {
+        image.src = `assets/${form}-${image.dataset.expression}.png`;
+        image.alt = `${expressionGrid.dataset.character} ${image.dataset.emotion} in ${form === 'human' ? 'centaur' : 'reverse-centaur'} form`;
+      }
+    });
+  }
+}

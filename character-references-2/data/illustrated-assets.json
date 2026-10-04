@@ -1,0 +1,263 @@
+{
+  "tool": "Built-in image_gen",
+  "extraction": {
+    "auto_key": "border",
+    "soft_matte": true,
+    "transparent_threshold": 12,
+    "opaque_threshold": 220,
+    "despill": true,
+    "opaque_subject_interior": "Restore source colours inside a hard-key mask eroded by 3 pixels; preserves burgundy/violet clothing while retaining soft edges.",
+    "foreground_tolerance": 80,
+    "alpha_noise_floor": 12
+  },
+  "assets": [
+    {
+      "slug": "celeste",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-c4ff809c-61b0-44fd-b4f9-eb1a65d763d7.png",
+      "source": "tmp/cast-art/celeste-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached celeste reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Warm tan skin, long abundant dark curls, ivory draped top, luminous cream-white dappled horse body and cream tail, graceful long-limbed build. Reverse: cream-white horse head, long dark curly mane, ivory top, light beige trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/female-white-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/celeste/assets/centaur-full-body.png",
+        "character-references-2/celeste/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "ari",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-da94e0d9-8463-41d0-9b88-84f35a6ab8b5.png",
+      "source": "tmp/cast-art/ari-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached ari reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Golden-brown skin, tall lean wiry androgynous build, short asymmetric dark curls with shaved side, charcoal asymmetrical sleeveless draping, violet/gold accents, pendant and cuffs. Gray dappled horse body, black tail. Reverse: gray horse head, black mane, same clothes and dark trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/gender-neutral-tall-gray-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/ari/assets/centaur-full-body.png",
+        "character-references-2/ari/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "imani",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-5b755539-5ef2-4123-b979-43bbabeefa17.png",
+      "source": "tmp/cast-art/imani-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached imani reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Very dark cool-brown skin, tall plus-size broad-hipped powerfully built soft body, long black locs, gold hoops, teal wrap blouse with gold edging, deep bay horse body and dark lower legs. Reverse: bay horse head, black loc-like mane, same substantial body, teal blouse and loose dark trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/woman-dark-skin-plus-size-deep-bay-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/imani/assets/centaur-full-body.png",
+        "character-references-2/imani/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "bram",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-9960f35d-8aa3-4e57-99ea-e1d7e3b6738d.png",
+      "source": "tmp/cast-art/bram-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached bram reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Short compact stocky muscular man, light freckled skin, copper hair and beard, rust-red lace-neck tunic, near-black dappled horse body, copper tail accents. Reverse: near-black horse head, copper forelock and chin tuft, same short stocky human body, rust tunic, olive trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/man-light-skin-stocky-black-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/bram/assets/centaur-full-body.png",
+        "character-references-2/bram/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "noor",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-bbb876be-5ca2-4bd1-8b04-dea88e6703ce.png",
+      "source": "tmp/cast-art/noor-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached noor reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Very tall narrow long-limbed androgynous build, golden-brown skin, exact reference vitiligo across face and arms, asymmetric curls shaved one side, charcoal-violet wraps gold trim, pale palomino coat cream patches and cream tail. Reverse: palomino horse head cream markings, same patterned arms and wraps, dark trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/nonbinary-medium-skin-wiry-palomino-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/noor/assets/centaur-full-body.png",
+        "character-references-2/noor/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "rowan",
+      "kind": "character-pair",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-5015df43-92a9-4a7b-ae7c-62954f777150.png",
+      "source": "tmp/cast-art/rowan-source.png",
+      "prompt": "Background-extraction identity-preserving edit of attached rowan reference. Produce ONE landscape 1536x1024 opaque chroma-key intermediate plate: ONLY the TWO full-body figures from the upper row, centaur on LEFT half, reverse-centaur on RIGHT half. Remove all bottom-row portraits. Keep each pose, expression, anatomy, identity, outfit and illustration style as close to reference as possible. Medium height broad athletic genderfluid figure, fair freckled skin, long copper hair one shaved side, indigo and muted wine-magenta layers (never exact #ff00ff), rope belt, blue roan horse coat and copper tail accents. Reverse: blue-roan horse head copper mane, same athletic human body indigo/wine clothing and dark trousers. Both complete figures from head to all hooves/feet, generous padding, clear empty vertical strip at x=50%, no figure crosses center. Centaur has four horse legs and human torso/head, reverse has horse head and clothed human body with two human feet. Warm illustrated ink outlines and painterly shading. Background must be one flat uniform #ff00ff, including negative spaces inside bent arms/between legs/under tail. Prohibit background shadows, gradients, texture, floor planes, reflections and lighting variation. #ff00ff must not appear anywhere in subject, no magenta spill or rimlight, no white edge halos, crisp subject-colored edges. No text, labels, watermark, logos or added accessories. This intermediate must KEEP the opaque magenta background for our local extraction helper.",
+      "reference": "character-references-2/genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png",
+      "split_x": 950,
+      "outputs": [
+        "character-references-2/rowan/assets/centaur-full-body.png",
+        "character-references-2/rowan/assets/reverse-full-body.png"
+      ]
+    },
+    {
+      "slug": "field-notebook",
+      "kind": "prop",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-032eb1a0-0e90-44fe-a8d1-91b948f5563e.png",
+      "source": "tmp/cast-art/field-notebook-source.png",
+      "prompt": "Create a single reusable mythic-adventure pack-content spot illustration, matching the attached EXISTING prop's warm painterly shading, dark precise ink contours, brass, brown leather, navy and restrained teal palette. Reference is style only, DO NOT reproduce its backpack. Subject: One compact open leather field notebook with cream blank pages, brass corner protectors, simple abstract diagram marks only, a charcoal pencil tucked along its spine and a teal ribbon bookmark. No letters or numbers. One compact object/group centred, generous padding, crisp edges. OPAQUE intermediate background one flat uniform #ff00ff chroma-key color. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in BACKGROUND. #ff00ff nowhere in subject, no magenta light or spill. No readable text, labels, watermark, logos, hands, characters, scenery. 1024x1024 square. Keep magenta backdrop for later local extraction.",
+      "outputs": [
+        "adventurer-props/transparent-1024/field-notebook.png"
+      ]
+    },
+    {
+      "slug": "graphite-pencil",
+      "kind": "prop",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-14cfc89a-bea2-4aa3-ba5e-082a0100c9dc.png",
+      "source": "tmp/cast-art/graphite-pencil-source.png",
+      "prompt": "Create a single reusable mythic-adventure pack-content spot illustration, matching the attached EXISTING prop's warm painterly shading, dark precise ink contours, brass, brown leather, navy and restrained teal palette. Reference is style only, DO NOT reproduce its backpack. Subject: One sturdy hexagonal natural cedar graphite drawing pencil in a short stitched brown leather protective sleeve with a brass end cap. Pencil tip clearly visible and no writing. A single compact diagonal arrangement. One compact object/group centred, generous padding, crisp edges. OPAQUE intermediate background one flat uniform #ff00ff chroma-key color. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in BACKGROUND. #ff00ff nowhere in subject, no magenta light or spill. No readable text, labels, watermark, logos, hands, characters, scenery. 1024x1024 square. Keep magenta backdrop for later local extraction.",
+      "outputs": [
+        "adventurer-props/transparent-1024/graphite-pencil.png"
+      ]
+    },
+    {
+      "slug": "mirrored-hand-lens",
+      "kind": "prop",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-a95a6c6c-7f09-4156-9b8c-fb1f02136387.png",
+      "source": "tmp/cast-art/mirrored-hand-lens-source.png",
+      "prompt": "Create a single reusable mythic-adventure pack-content spot illustration, matching the attached EXISTING prop's warm painterly shading, dark precise ink contours, brass, brown leather, navy and restrained teal palette. Reference is style only, DO NOT reproduce its backpack. Subject: One small circular polished silver mirrored hand lens in antique brass frame with a short carved wood handle and leather wrist loop. Mirror has softly blue-gray reflection confined INSIDE its disc, no scenery or face. One compact object/group centred, generous padding, crisp edges. OPAQUE intermediate background one flat uniform #ff00ff chroma-key color. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in BACKGROUND. #ff00ff nowhere in subject, no magenta light or spill. No readable text, labels, watermark, logos, hands, characters, scenery. 1024x1024 square. Keep magenta backdrop for later local extraction.",
+      "outputs": [
+        "adventurer-props/transparent-1024/mirrored-hand-lens.png"
+      ]
+    },
+    {
+      "slug": "spare-fasteners",
+      "kind": "prop",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-dca768a7-e009-4e70-ba40-246606e6da4b.png",
+      "source": "tmp/cast-art/spare-fasteners-source.png",
+      "prompt": "Create a single reusable mythic-adventure pack-content spot illustration, matching the attached EXISTING prop's warm painterly shading, dark precise ink contours, brass, brown leather, navy and restrained teal palette. Reference is style only, DO NOT reproduce its backpack. Subject: A small practical collection of brass and dark iron bolts, nuts, washers and one retaining pin arranged on an open brown leather parts pouch. Readable silhouettes, workshop scale, no oversized machinery. One compact object/group centred, generous padding, crisp edges. OPAQUE intermediate background one flat uniform #ff00ff chroma-key color. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in BACKGROUND. #ff00ff nowhere in subject, no magenta light or spill. No readable text, labels, watermark, logos, hands, characters, scenery. 1024x1024 square. Keep magenta backdrop for later local extraction.",
+      "outputs": [
+        "adventurer-props/transparent-1024/spare-fasteners.png"
+      ]
+    },
+    {
+      "slug": "knot-rings",
+      "kind": "prop",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-45c68466-9904-47d3-9356-59f452e5e71a.png",
+      "source": "tmp/cast-art/knot-rings-source.png",
+      "prompt": "Create a single reusable mythic-adventure pack-content spot illustration, matching the attached EXISTING prop's warm painterly shading, dark precise ink contours, brass, brown leather, navy and restrained teal palette. Reference is style only, DO NOT reproduce its backpack. Subject: Three antique-brass knot rings connected by short pieces of braided navy, muted burgundy and natural rope, showing three different practical knots. A compact tactile keepsake/tool bundle, no magical effects. One compact object/group centred, generous padding, crisp edges. OPAQUE intermediate background one flat uniform #ff00ff chroma-key color. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in BACKGROUND. #ff00ff nowhere in subject, no magenta light or spill. No readable text, labels, watermark, logos, hands, characters, scenery. 1024x1024 square. Keep magenta backdrop for later local extraction.",
+      "outputs": [
+        "adventurer-props/transparent-1024/knot-rings.png"
+      ]
+    },
+    {
+      "slug": "celeste-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-86f6a28d-89d6-4d75-a555-9be99a6474fd.png",
+      "source": "tmp/cast-art/celeste-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached celeste reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Warm tan skin, long abundant dark curls, ivory draped top, luminous cream-white dappled horse body and cream tail, graceful long-limbed build. Reverse: cream-white horse head, long dark curly mane, ivory top, light beige trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/female-white-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/celeste/assets/human-neutral.png",
+        "character-references-2/celeste/assets/human-curious.png",
+        "character-references-2/celeste/assets/human-happy.png",
+        "character-references-2/celeste/assets/human-worried.png",
+        "character-references-2/celeste/assets/human-thoughtful.png",
+        "character-references-2/celeste/assets/reverse-neutral.png",
+        "character-references-2/celeste/assets/reverse-curious.png",
+        "character-references-2/celeste/assets/reverse-happy.png",
+        "character-references-2/celeste/assets/reverse-worried.png",
+        "character-references-2/celeste/assets/reverse-thoughtful.png"
+      ]
+    },
+    {
+      "slug": "ari-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-ff0ce807-65b7-4ce3-8174-b124b3547b3d.png",
+      "source": "tmp/cast-art/ari-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached ari reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Golden-brown skin, tall lean wiry androgynous build, short asymmetric dark curls with shaved side, charcoal asymmetrical sleeveless draping, violet/gold accents, pendant and cuffs. Gray dappled horse body, black tail. Reverse: gray horse head, black mane, same clothes and dark trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/gender-neutral-tall-gray-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/ari/assets/human-neutral.png",
+        "character-references-2/ari/assets/human-curious.png",
+        "character-references-2/ari/assets/human-happy.png",
+        "character-references-2/ari/assets/human-worried.png",
+        "character-references-2/ari/assets/human-thoughtful.png",
+        "character-references-2/ari/assets/reverse-neutral.png",
+        "character-references-2/ari/assets/reverse-curious.png",
+        "character-references-2/ari/assets/reverse-happy.png",
+        "character-references-2/ari/assets/reverse-worried.png",
+        "character-references-2/ari/assets/reverse-thoughtful.png"
+      ]
+    },
+    {
+      "slug": "imani-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-f67e0ce8-f9f0-4d21-ad4c-c2dbf8ebacb0.png",
+      "source": "tmp/cast-art/imani-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached imani reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Very dark cool-brown skin, tall plus-size broad-hipped powerfully built soft body, long black locs, gold hoops, teal wrap blouse with gold edging, deep bay horse body and dark lower legs. Reverse: bay horse head, black loc-like mane, same substantial body, teal blouse and loose dark trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/woman-dark-skin-plus-size-deep-bay-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/imani/assets/human-neutral.png",
+        "character-references-2/imani/assets/human-curious.png",
+        "character-references-2/imani/assets/human-happy.png",
+        "character-references-2/imani/assets/human-worried.png",
+        "character-references-2/imani/assets/human-thoughtful.png",
+        "character-references-2/imani/assets/reverse-neutral.png",
+        "character-references-2/imani/assets/reverse-curious.png",
+        "character-references-2/imani/assets/reverse-happy.png",
+        "character-references-2/imani/assets/reverse-worried.png",
+        "character-references-2/imani/assets/reverse-thoughtful.png"
+      ]
+    },
+    {
+      "slug": "bram-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-a746e722-8204-4096-8729-e2c4f2c6e56c.png",
+      "source": "tmp/cast-art/bram-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached bram reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Short compact stocky muscular man, light freckled skin, copper hair and beard, rust-red lace-neck tunic, near-black dappled horse body, copper tail accents. Reverse: near-black horse head, copper forelock and chin tuft, same short stocky human body, rust tunic, olive trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/man-light-skin-stocky-black-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/bram/assets/human-neutral.png",
+        "character-references-2/bram/assets/human-curious.png",
+        "character-references-2/bram/assets/human-happy.png",
+        "character-references-2/bram/assets/human-worried.png",
+        "character-references-2/bram/assets/human-thoughtful.png",
+        "character-references-2/bram/assets/reverse-neutral.png",
+        "character-references-2/bram/assets/reverse-curious.png",
+        "character-references-2/bram/assets/reverse-happy.png",
+        "character-references-2/bram/assets/reverse-worried.png",
+        "character-references-2/bram/assets/reverse-thoughtful.png"
+      ]
+    },
+    {
+      "slug": "noor-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-010e053a-ed22-4a9f-b497-dfee99ef6e7b.png",
+      "source": "tmp/cast-art/noor-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached noor reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Very tall narrow long-limbed androgynous build, golden-brown skin, exact reference vitiligo across face and arms, asymmetric curls shaved one side, charcoal-violet wraps gold trim, pale palomino coat cream patches and cream tail. Reverse: palomino horse head cream markings, same patterned arms and wraps, dark trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/nonbinary-medium-skin-wiry-palomino-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/noor/assets/human-neutral.png",
+        "character-references-2/noor/assets/human-curious.png",
+        "character-references-2/noor/assets/human-happy.png",
+        "character-references-2/noor/assets/human-worried.png",
+        "character-references-2/noor/assets/human-thoughtful.png",
+        "character-references-2/noor/assets/reverse-neutral.png",
+        "character-references-2/noor/assets/reverse-curious.png",
+        "character-references-2/noor/assets/reverse-happy.png",
+        "character-references-2/noor/assets/reverse-worried.png",
+        "character-references-2/noor/assets/reverse-thoughtful.png"
+      ]
+    },
+    {
+      "slug": "rowan-expressions",
+      "kind": "expressions",
+      "generated_source": "/Users/svetzal/.codex/generated_images/01a10483-a27b-7890-9247-b2ec10b36af6/exec-299682f9-25b0-4e53-9b5c-1a21b76866a3.png",
+      "source": "tmp/cast-art/rowan-expressions-source.png",
+      "prompt": "Identity-preserving expression-sheet edit using attached rowan reference. Create precisely TEN separate bust portraits on one landscape 1536x1024 opaque chroma-key plate in a strict 5-column x 2-row evenly spaced grid. TOP ROW HUMAN heads: neutral attentive, curious, happy, worried, thoughtful (hand at chin). BOTTOM ROW corresponding HORSE heads on clothed human shoulders: same five emotions in same order. Use ONLY the original bottom-row portrait faces as identity authority, do not redesign person. Medium height broad athletic genderfluid figure, fair freckled skin, long copper hair one shaved side, indigo and muted wine-magenta layers (never exact #ff00ff), rope belt, blue roan horse coat and copper tail accents. Reverse: blue-roan horse head copper mane, same athletic human body indigo/wine clothing and dark trousers. Match face, hair/locs/curls, freckles/markings, jewellery, build and clothing closely. Each portrait is head+shoulders/chest, hands only in thoughtful pose. Warm ink-outline painterly storybook style identical reference. Each portrait fits fully inside its own 20%-width x50%-height cell with at least 8% clear padding around all its edges, no overlapping, no heads/muzzles/ears cropped. Flat clean curved bottom to bust, no feathered fading. Background one flat uniform #ff00ff chroma-key color, including all negative spaces. Prohibit shadows, gradients, texture, floor planes, reflections and lighting variation in background. #ff00ff must not appear in subject. No magenta spill or white halos. Crisp edges and generous padding. No text, labels, watermark, logos. Keep OPAQUE magenta background for local extraction. Top row humans, bottom row horses. Five columns both rows.",
+      "reference": "character-references-2/genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png",
+      "outputs": [
+        "character-references-2/rowan/assets/human-neutral.png",
+        "character-references-2/rowan/assets/human-curious.png",
+        "character-references-2/rowan/assets/human-happy.png",
+        "character-references-2/rowan/assets/human-worried.png",
+        "character-references-2/rowan/assets/human-thoughtful.png",
+        "character-references-2/rowan/assets/reverse-neutral.png",
+        "character-references-2/rowan/assets/reverse-curious.png",
+        "character-references-2/rowan/assets/reverse-happy.png",
+        "character-references-2/rowan/assets/reverse-worried.png",
+        "character-references-2/rowan/assets/reverse-thoughtful.png"
+      ]
+    }
+  ]
+}

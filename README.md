@@ -68,3 +68,25 @@ Mateo's home-page and dossier figures use the `*-full-body-clean.png` assets in
 the built-in image tool on a uniform magenta background, then extracted with
 the system chroma-key helper. Their generation and extraction details are in
 `character-references-2/data/mateo-cutouts.json`. Original assets are retained.
+
+The six dossiers share Mateo's illustrated visual system through
+`character-references-2/dossier.css` and
+`character-references-2/templates/dossier.html`. Each now has isolated full-body
+figures, an expression toggle, and four illustrated items inside their pack.
+`character-references-2/data/pack-art.json` maps those items to reusable prop
+artwork. Select a prop image to download its transparent PNG.
+
+New character and prop art uses the same built-in image generation and
+magenta-key process as Mateo's repaired figures. Prompts, source locations,
+and output paths are recorded in
+`character-references-2/data/illustrated-assets.json`. When those generated
+sources are available, rebuild the transparent assets with:
+
+```bash
+source .venv/bin/activate
+python character-references-2/scripts/prepare_illustrated_assets.py
+```
+
+Use `--kind character-pair`, `--kind expressions`, or `--kind prop` to rebuild
+one asset category. The expression splitter finds clear gaps between portraits
+and stops if it cannot find a safe cut, rather than clipping neighbouring art.
