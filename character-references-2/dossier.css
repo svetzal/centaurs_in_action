@@ -1,5 +1,5 @@
 /* Mateo's illustrated dossier is the shared visual foundation. */
-@import url("mateo/styles.css");
+@import url("mateo/styles.css?v=20261004-2");
 a { color: inherit; text-underline-offset: .2em; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
 [hidden] { display: none !important; }
