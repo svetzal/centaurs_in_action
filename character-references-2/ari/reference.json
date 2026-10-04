@@ -1,0 +1,126 @@
+{
+  "name": "Ari",
+  "established_profile": {
+    "Reference": "gender-neutral-tall-gray-centaur-character-study.png",
+    "Pronouns": "they/them",
+    "Role": "AI researcher and constructive skeptic",
+    "Character essence": "Ari turns confident answers back into honest questions.",
+    "Handwritten phrase": "What would change our minds?",
+    "Physical presence": "Very tall, lean, and wiry, with balanced androgynous proportions and quick, precise gestures",
+    "Defining appearance": "Golden-brown skin, asymmetric dark curls, violet and gold accents, gray horse coat, and deliberate mixed-gender styling",
+    "Place in society": "A respected challenger inside technical and civic institutions; invited when a decision needs evidence rather than ceremony",
+    "Carried objects": "Puzzle prism, mirrored lens, question key, and compact observation notebook",
+    "Characteristics": "Strength 11, Dexterity 15, Constitution 12, Intelligence 18, Wisdom 16, Charisma 13",
+    "First impression": "Alert, unconventional, intellectually playful",
+    "Inner engine": "Wants claims to become honest questions and useful evidence",
+    "Leadership strength": "Separates genuine learning from confident theatre",
+    "Shadow": "Can keep investigating after the group has enough evidence to act",
+    "Emotional tells": "Raises one eyebrow at vague certainty; touches their pendant when assembling a difficult thought",
+    "Voice": "Curious, exact, lightly mischievous; often answers with a better question",
+    "Motifs": "Puzzle prism, question key, mirrored lens, violet thread",
+    "Private delight": "A result that disproves their favourite hypothesis",
+    "bio": "Ari is curious enough to test almost anything and skeptical enough not to fall in love with the first result. They listen for assumptions hiding inside a question. Their presence can slow a conversation down, but usually because the group is about to learn something it would otherwise miss."
+  },
+  "storytelling": {
+    "title": "The useful question",
+    "origin": "Ari became a trusted researcher by writing down what would disprove an idea before running the experiment. They remember how easily a polished demonstration can become a promise. Their notebook keeps failed predictions beside successful ones; the crossed-out page is often the page they are happiest to show.",
+    "want": "To give people enough honest evidence to choose well, especially when a confident system makes certainty easy to perform.",
+    "fear": "That a persuasive answer will become unquestionable before anyone has tested what it means in practice.",
+    "contradiction": "They welcome being wrong about a hypothesis, yet can struggle to admit that another experiment is no longer the most useful next step.",
+    "boundary": "They will act under uncertainty when it is named. They will not describe an untested claim as established evidence.",
+    "candid": "Sitting beside an open notebook, Ari rotates a puzzle prism and laughs at a result that ruins their favourite explanation. The delight is in discovering something, not winning an argument.",
+    "centred": "Ari names the hidden assumption, proposes a small discriminating test, and agrees what evidence will be enough. Their precision makes a decision safer and their curiosity invites other people to learn with them.",
+    "captured": "When certainty is demanded or evidence is dismissed, Ari hunts for every remaining exception. Precision becomes an endless examination. They protect themselves from a premature conclusion by making any conclusion unreachable, leaving the group unable to move.",
+    "triggers": [
+      "A polished AI demonstration is treated as proof that a system is dependable.",
+      "A challenge to a claim is heard as disloyalty to the team.",
+      "The group asks for absolute certainty about an irreversible choice."
+    ],
+    "state_cues": [
+      "Prism placed on the table; one open hand inviting a test; alert, amused eye contact.",
+      "Notebook crowded with branches; pendant held tightly; body turned toward the evidence while the conversation moves away."
+    ],
+    "return": [
+      "I am adding questions without changing the decision.",
+      "Fear of being complicit in a false claim has captured my attention.",
+      "I can design a test that separates two plausible explanations.",
+      "Agree a stopping rule, run that test, and say what remains uncertain."
+    ],
+    "emotions": [
+      "Attentive: steady eyes and a relaxed mouth; ears forward in reverse form, with no sneer.",
+      "Curious: one eyebrow lifts and the head angles toward a surprising claim; a slight ear swivel echoes it in reverse form.",
+      "Happy: quick, mischievous smile at an unexpected result; relaxed muzzle and bright eyes.",
+      "Worried: pendant touched, brow tight, fingers hovering over the notebook; reverse ears cant back with the same contained tension.",
+      "Thoughtful: compact hand-to-chin gesture, gaze moving between two observations; hand near the muzzle in reverse form."
+    ],
+    "props": [
+      [
+        "Puzzle prism",
+        "Rotated to compare explanations. Its facets catch ordinary light, without implying infallible insight."
+      ],
+      [
+        "Mirrored lens",
+        "Shows a second view of the same evidence. Keep it hand-sized and visibly held."
+      ],
+      [
+        "Question key",
+        "A motif for opening an assumption; use as a small personal object, not a weapon."
+      ],
+      [
+        "Observation notebook",
+        "Contains tests, crossed-out predictions and unresolved questions. In storytelling images use illegible marks rather than generated prose."
+      ]
+    ],
+    "relations": [
+      [
+        "Mateo",
+        "Ari asks what justifies the next step; Mateo helps make the answer actionable. Let Ari agree to move when the evidence is sufficient."
+      ],
+      [
+        "Bram",
+        "They respect each other's honesty. Bram brings a reproducible failure; Ari separates its cause from the first plausible story."
+      ],
+      [
+        "Noor",
+        "Noor opens possible futures and Ari tests their assumptions. Keep their functions distinct: foresight explores choices; research tests claims."
+      ]
+    ],
+    "scenes": [
+      [
+        "One test that matters",
+        "Centaur",
+        "At a field research bench, Ari turns a small prism beside two contrasting samples while Bram watches. One open hand invites him to repeat the test. Frame the shared observation rather than a triumphant reveal."
+      ],
+      [
+        "Enough evidence, no decision",
+        "Reverse-centaur",
+        "Ari sits beside an expanding spread of notebooks while the expedition waits near a doorway. They touch their pendant and study another branch of the problem. Show sincere concentration and the waiting group in the same frame."
+      ],
+      [
+        "A stopping rule",
+        "Centaur",
+        "Ari closes all but one notebook and places the remaining test between them and Mateo. Their shoulders relax as Mateo listens. An open doorway gives the group a visible next step without suggesting every uncertainty has vanished."
+      ]
+    ],
+    "continuity": "Keep golden-brown skin, very tall lean wiry build, asymmetric dark curls with the reference's cropped side, expressive brows, gray dappled coat, charcoal draped tunic, violet and gold accents, pendant, cuffs and deliberate mixed-gender styling. Reverse form has a gray horse head, dark mane, the same draped styling, and dark trousers.",
+    "avoid": "Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
+  },
+  "image_prompts": [
+    {
+      "title": "One test that matters",
+      "form": "Centaur",
+      "prompt": "Character: Ari (they/them). Use the attached Ari reference sheet as the identity authority. Form: Centaur. Keep golden-brown skin, very tall lean wiry build, asymmetric dark curls with the reference's cropped side, expressive brows, gray dappled coat, charcoal draped tunic, violet and gold accents, pendant, cuffs and deliberate mixed-gender styling. Reverse form has a gray horse head, dark mane, the same draped styling, and dark trousers. Scene: At a field research bench, Ari turns a small prism beside two contrasting samples while Bram watches. One open hand invites him to repeat the test. Frame the shared observation rather than a triumphant reveal. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
+    },
+    {
+      "title": "Enough evidence, no decision",
+      "form": "Reverse-centaur",
+      "prompt": "Character: Ari (they/them). Use the attached Ari reference sheet as the identity authority. Form: Reverse-centaur. Keep golden-brown skin, very tall lean wiry build, asymmetric dark curls with the reference's cropped side, expressive brows, gray dappled coat, charcoal draped tunic, violet and gold accents, pendant, cuffs and deliberate mixed-gender styling. Reverse form has a gray horse head, dark mane, the same draped styling, and dark trousers. Scene: Ari sits beside an expanding spread of notebooks while the expedition waits near a doorway. They touch their pendant and study another branch of the problem. Show sincere concentration and the waiting group in the same frame. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
+    },
+    {
+      "title": "A stopping rule",
+      "form": "Centaur",
+      "prompt": "Character: Ari (they/them). Use the attached Ari reference sheet as the identity authority. Form: Centaur. Keep golden-brown skin, very tall lean wiry build, asymmetric dark curls with the reference's cropped side, expressive brows, gray dappled coat, charcoal draped tunic, violet and gold accents, pendant, cuffs and deliberate mixed-gender styling. Reverse form has a gray horse head, dark mane, the same draped styling, and dark trousers. Scene: Ari closes all but one notebook and places the remaining test between them and Mateo. Their shoulders relax as Mateo listens. An open doorway gives the group a visible next step without suggesting every uncertainty has vanished. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not make androgyny featureless, masculinize or feminize them to fit a binary template, swap in Noor's vitiligo or palomino coat, or depict skepticism as contempt. No lab coat is required to make their role legible."
+    }
+  ],
+  "reference_sheet": "../gender-neutral-tall-gray-centaur-character-study.png"
+}

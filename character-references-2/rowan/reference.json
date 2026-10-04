@@ -1,0 +1,126 @@
+{
+  "name": "Rowan",
+  "established_profile": {
+    "Reference": "genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png",
+    "Pronouns": "they/she/he, depending on the day",
+    "Role": "Incident-response and learning lead",
+    "Character essence": "Rowan helps people adapt without losing who they are.",
+    "Handwritten phrase": "Change shape. Keep your centre.",
+    "Physical presence": "Medium height, broad and athletic, with strong thighs, moderate shoulders, and energetic, highly adaptable movement",
+    "Defining appearance": "Fair freckled skin, long copper hair with one shaved side, indigo and magenta layers, and a blue-roan horse coat",
+    "Place in society": "A mobile crisis leader welcomed across organizational boundaries when plans fail and people need both direction and recovery",
+    "Carried objects": "Signal flare, weather vane, knot rings, and a compact after-action journal",
+    "Characteristics": "Strength 15, Dexterity 17, Constitution 15, Intelligence 14, Wisdom 13, Charisma 17",
+    "First impression": "Bold, magnetic, ready for anything",
+    "Inner engine": "Wants people to discover their capacity under pressure",
+    "Leadership strength": "Adapts rapidly while keeping the group oriented",
+    "Shadow": "Changes direction before slower collaborators have caught up",
+    "Emotional tells": "Pushes hair back before taking command; becomes unusually quiet when deciding whether to pivot",
+    "Voice": "Vivid, candid, encouraging; names the situation without dramatizing it",
+    "Motifs": "Signal flare, weather vane, knot rings, blue-roan feather",
+    "Private delight": "The moment a disrupted team starts moving as one again",
+    "bio": "Rowan is at their best when the original plan has stopped being useful. They can take command without becoming controlling, change shape without losing their centre, and turn a difficult event into shared learning. Their appetite for adaptation sometimes makes consistency feel less valuable than it is."
+  },
+  "storytelling": {
+    "title": "Change with a centre",
+    "origin": "Rowan found a place in the gap between the plan and what actually happened. They learned to give a disrupted group something useful to do, then stay for the quieter work of understanding the event. Their after-action journal records what helped people recover as carefully as what brought the incident under control.",
+    "want": "To help people adapt under pressure and recognize their own capacity once the immediate crisis has passed.",
+    "fear": "That holding to a plan will trap the group in a failure they could have escaped, and that slowing down means missing the moment to help.",
+    "contradiction": "They make change feel possible but can change direction so quickly that other people lose the continuity needed to follow.",
+    "boundary": "They will change tactics decisively. They will resist urgency used as a reason to discard people, conceal consequences or skip recovery.",
+    "candid": "After the group is safe, Rowan loosens a knot ring and writes one observation in the journal. The lively stance softens into stillness while a teammate finishes telling their version of the event.",
+    "centred": "Rowan reads the changed situation, names what still matters, and gives the group a clear adjustment. Their energy helps people coordinate. They check who has heard the change and remain present for the recovery and learning that follow.",
+    "captured": "Competing alarms make Rowan pivot before anyone can orient. Adaptability becomes churn; encouragement becomes pressure to keep up. They chase the next urgent signal, while collaborators stand holding instructions that are already out of date.",
+    "triggers": [
+      "Several urgent signals compete with no shared priority.",
+      "A plan fails publicly and everyone looks to them for instant certainty.",
+      "The incident is declared over before exhausted people have recovered."
+    ],
+    "state_cues": [
+      "Hair pushed back; open directional gesture; gaze checking the people receiving the signal.",
+      "Torso turned between competing signals; unfinished gesture; a tense quiet beat before another abrupt pivot."
+    ],
+    "return": [
+      "I have changed direction faster than the group can follow.",
+      "Urgency and fear of missing the moment have captured my attention.",
+      "I can orient people around one thing that still matters.",
+      "Pause, name what stays constant, explain one change, and check that everyone has it."
+    ],
+    "emotions": [
+      "Attentive: energetic readiness held in a balanced stance; ears forward and eyes on the speaker in reverse form.",
+      "Curious: head angles toward a new signal, one brow lifts, weight shifts without launching into action.",
+      "Happy: open grin and visible release through shoulders; relaxed horse jaw and bright eyes.",
+      "Worried: unusual stillness before a pivot, hair pushed back and brow drawn; ears turn toward competing sounds.",
+      "Thoughtful: hand at chin, mouth quiet, gaze checking the group; muzzle-touch echoes the gesture in reverse form."
+    ],
+    "props": [
+      [
+        "Signal flare",
+        "A deliberate shared cue. Use one clear signal and keep it away from faces or clothing."
+      ],
+      [
+        "Weather vane",
+        "Shows changed conditions. It does not automatically demand a changed goal."
+      ],
+      [
+        "Knot rings",
+        "Tactile reminders of commitments that survive a pivot; loosened during reflection or reset."
+      ],
+      [
+        "After-action journal",
+        "Records multiple perspectives once the crisis settles. Include pauses and listening, not only command poses."
+      ]
+    ],
+    "relations": [
+      [
+        "Imani",
+        "Imani names the commitments that must survive adaptation. Rowan helps find a new way to honour them when the old plan fails."
+      ],
+      [
+        "Mateo",
+        "They can amplify each other's momentum. A useful scene lets one notice the group has fallen behind and invite the other to pause."
+      ],
+      [
+        "Celeste",
+        "Celeste sees where a change disrupts someone's journey. Rowan uses that observation to make the next instruction clearer."
+      ]
+    ],
+    "scenes": [
+      [
+        "A changed route, a shared purpose",
+        "Centaur",
+        "With a storm closing one trail, Rowan gives a single clear directional signal toward shelter while checking faces in the group. Imani stays beside a slower traveller. Show alert coordination and a readable alternate route, not lone-hero spectacle."
+      ],
+      [
+        "Three signals at once",
+        "Reverse-centaur",
+        "At a trail junction, Rowan turns between three competing signal sources while companions hold conflicting route maps. A hand pauses halfway through a new instruction. Preserve their athletic build and dignity; pressure is conveyed by the scene's divided attention."
+      ],
+      [
+        "The pause that restores direction",
+        "Centaur",
+        "At the same junction, Rowan lowers the signalling hand, faces the group and marks one route with a knot ring. Celeste checks a traveller's understanding. Rowan's expression is candid and steady; the others have time to respond."
+      ]
+    ],
+    "continuity": "Keep fair freckled skin, medium height, broad athletic build, long copper hair with one shaved side, indigo and muted magenta layers, rope belt, blue-roan horse coat and copper mane/tail accents. Reverse form has a blue-roan horse head, copper mane, the same athletic human body, indigo-magenta clothing and dark trousers. Pronouns are they/she/he depending on the day; these dossiers use they/them. Establish the day's pronouns in a scene brief and keep them consistent across that sequence.",
+    "avoid": "Genderfluidity is part of Rowan's identity, never a symptom of pressure or a synonym for unreliable behaviour. Do not change gender presentation automatically when the form changes, erase freckles or the shaved side, or make every scene an emergency. For magenta-key cutouts use the reference's muted wine-magenta fabric, never exact #ff00ff in the subject."
+  },
+  "image_prompts": [
+    {
+      "title": "A changed route, a shared purpose",
+      "form": "Centaur",
+      "prompt": "Character: Rowan (they/she/he, depending on the day). Use the attached Rowan reference sheet as the identity authority. Form: Centaur. Keep fair freckled skin, medium height, broad athletic build, long copper hair with one shaved side, indigo and muted magenta layers, rope belt, blue-roan horse coat and copper mane/tail accents. Reverse form has a blue-roan horse head, copper mane, the same athletic human body, indigo-magenta clothing and dark trousers. Pronouns are they/she/he depending on the day; these dossiers use they/them. Establish the day's pronouns in a scene brief and keep them consistent across that sequence. Scene: With a storm closing one trail, Rowan gives a single clear directional signal toward shelter while checking faces in the group. Imani stays beside a slower traveller. Show alert coordination and a readable alternate route, not lone-hero spectacle. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Genderfluidity is part of Rowan's identity, never a symptom of pressure or a synonym for unreliable behaviour. Do not change gender presentation automatically when the form changes, erase freckles or the shaved side, or make every scene an emergency. For magenta-key cutouts use the reference's muted wine-magenta fabric, never exact #ff00ff in the subject."
+    },
+    {
+      "title": "Three signals at once",
+      "form": "Reverse-centaur",
+      "prompt": "Character: Rowan (they/she/he, depending on the day). Use the attached Rowan reference sheet as the identity authority. Form: Reverse-centaur. Keep fair freckled skin, medium height, broad athletic build, long copper hair with one shaved side, indigo and muted magenta layers, rope belt, blue-roan horse coat and copper mane/tail accents. Reverse form has a blue-roan horse head, copper mane, the same athletic human body, indigo-magenta clothing and dark trousers. Pronouns are they/she/he depending on the day; these dossiers use they/them. Establish the day's pronouns in a scene brief and keep them consistent across that sequence. Scene: At a trail junction, Rowan turns between three competing signal sources while companions hold conflicting route maps. A hand pauses halfway through a new instruction. Preserve their athletic build and dignity; pressure is conveyed by the scene's divided attention. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Genderfluidity is part of Rowan's identity, never a symptom of pressure or a synonym for unreliable behaviour. Do not change gender presentation automatically when the form changes, erase freckles or the shaved side, or make every scene an emergency. For magenta-key cutouts use the reference's muted wine-magenta fabric, never exact #ff00ff in the subject."
+    },
+    {
+      "title": "The pause that restores direction",
+      "form": "Centaur",
+      "prompt": "Character: Rowan (they/she/he, depending on the day). Use the attached Rowan reference sheet as the identity authority. Form: Centaur. Keep fair freckled skin, medium height, broad athletic build, long copper hair with one shaved side, indigo and muted magenta layers, rope belt, blue-roan horse coat and copper mane/tail accents. Reverse form has a blue-roan horse head, copper mane, the same athletic human body, indigo-magenta clothing and dark trousers. Pronouns are they/she/he depending on the day; these dossiers use they/them. Establish the day's pronouns in a scene brief and keep them consistent across that sequence. Scene: At the same junction, Rowan lowers the signalling hand, faces the group and marks one route with a knot ring. Celeste checks a traveller's understanding. Rowan's expression is candid and steady; the others have time to respond. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Genderfluidity is part of Rowan's identity, never a symptom of pressure or a synonym for unreliable behaviour. Do not change gender presentation automatically when the form changes, erase freckles or the shaved side, or make every scene an emergency. For magenta-key cutouts use the reference's muted wine-magenta fabric, never exact #ff00ff in the subject."
+    }
+  ],
+  "reference_sheet": "../genderfluid-fair-skin-athletic-blue-roan-centaur-character-study.png"
+}

@@ -1034,3 +1034,9 @@ h3 {
     transition-duration: 0.01ms !important;
   }
 }
+
+.cast-navigation { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; padding: 1rem clamp(1.5rem, 4vw, 4.5rem); background: var(--ink); color: var(--paper-light); }
+.cast-navigation a { padding: .5rem 0; color: inherit; text-underline-offset: .2em; }
+.cast-navigation a:first-child { margin-right: auto; }
+.cast-navigation a[aria-current] { color: var(--gold-light); }
+.cast-navigation a:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 4px; }

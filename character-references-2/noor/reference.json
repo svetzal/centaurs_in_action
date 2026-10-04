@@ -1,0 +1,126 @@
+{
+  "name": "Noor",
+  "established_profile": {
+    "Reference": "nonbinary-medium-skin-wiry-palomino-centaur-character-study.png",
+    "Pronouns": "they/them",
+    "Role": "Strategic foresight researcher and pattern-reader",
+    "Character essence": "Noor reveals the futures hiding inside today's small choices.",
+    "Handwritten phrase": "The future is still negotiable.",
+    "Physical presence": "Very tall, narrow-framed, long-limbed, and lightly muscled, with a poised stillness that makes small gestures noticeable",
+    "Defining appearance": "Golden-brown skin with vitiligo, asymmetric curls, charcoal-violet wraps, and a pale palomino coat with cream markings",
+    "Place in society": "A boundary-spanning advisor who moves between research, public imagination, and long-range institutional planning",
+    "Carried objects": "Folding star map, prism lens, weather vane charm, and a spool of golden thread",
+    "Characteristics": "Strength 9, Dexterity 16, Constitution 11, Intelligence 17, Wisdom 17, Charisma 15",
+    "First impression": "Luminous, self-possessed, slightly mysterious",
+    "Inner engine": "Wants people to recognize that the future is still negotiable",
+    "Leadership strength": "Reveals emerging choices before they harden into fate",
+    "Shadow": "Can become fascinated by distant possibilities while today's needs wait",
+    "Emotional tells": "Looks upward when following a new connection; taps a rhythm with one finger when ideas begin to converge",
+    "Voice": "Evocative but grounded; moves easily between metaphor and evidence",
+    "Motifs": "Folding star map, prism lens, weather vane, golden thread",
+    "Private delight": "Hearing two unrelated stories click into one pattern",
+    "bio": "Noor notices weak signals before they become obvious. They connect stories, data, and intuition into possible futures, then invite others to decide which future is worth building. Their imagination is disciplined, although their attention can travel much farther ahead than everyone else's."
+  },
+  "storytelling": {
+    "title": "The future still open",
+    "origin": "Noor collects small changes that others dismiss as unrelated: a new use for an old space, an altered routine, a story that begins appearing in different places. They learned to lay several futures beside one another instead of offering a single prediction. Their work gives people time to choose while choices are still available.",
+    "want": "To help people recognize which futures their everyday choices are beginning to make possible.",
+    "fear": "That a path will become inevitable simply because no one noticed the alternatives while they were small.",
+    "contradiction": "They defend people's ability to choose their future, yet can become so absorbed in distant choices that today's practical needs go unanswered.",
+    "boundary": "They will explore a troubling possibility without endorsing it. They will not present a scenario as a prophecy or erase the people who would bear its costs.",
+    "candid": "Noor pauses midway through winding golden thread when two unrelated stories suddenly connect. One finger taps a quiet rhythm on the table before they look up to share the pattern with someone nearby.",
+    "centred": "Noor turns weak signals into several plausible scenarios, names the assumptions behind them, and connects each future to a choice available now. Their imagination expands agency because the group can see something it can actually influence.",
+    "captured": "When the future feels closed or the present feels too small, Noor travels farther into possibility. Pattern-reading becomes proliferation: more branches, more horizons, fewer commitments. The group receives wonder without a usable next decision.",
+    "triggers": [
+      "A single forecast is used to shut down alternatives.",
+      "They are asked to supply inspiration while the actual decision remains closed.",
+      "Present responsibilities feel trivial beside a sweeping long-term possibility."
+    ],
+    "state_cues": [
+      "Star map angled toward the group; one thread connected to a nearby object; poised body and attentive gaze.",
+      "Eyes fixed beyond the group; thread accumulating in loops; an immediate request left unanswered at their side."
+    ],
+    "return": [
+      "My attention has travelled beyond the choice in front of us.",
+      "Fear of a closed future is pulling me away from present obligations.",
+      "I can connect one emerging signal to one decision available today.",
+      "Name two plausible futures and one reversible step that keeps a useful option open."
+    ],
+    "emotions": [
+      "Attentive: poised stillness, level chin and direct gaze; horse ears lightly oriented toward the speaker.",
+      "Curious: eyes lift as a connection forms, one finger begins tapping; an ear rotates toward a new signal.",
+      "Happy: a contained luminous smile when two stories connect; warm eyes and relaxed muzzle in reverse form.",
+      "Worried: tapping stops, brow gathers, thread held too tightly; ears shift back slightly.",
+      "Thoughtful: long fingers rest near the chin while the gaze returns from distance to the map; a similar muzzle-touch in reverse form."
+    ],
+    "props": [
+      [
+        "Folding star map",
+        "Holds multiple possible routes. Keep several paths visible rather than a single destined line."
+      ],
+      [
+        "Prism lens",
+        "Reframes a familiar signal; distinguish its use from Ari's experiment by showing alternative views."
+      ],
+      [
+        "Weather vane charm",
+        "A small reminder that direction can change. It responds to conditions rather than predicting them."
+      ],
+      [
+        "Golden thread",
+        "Connects a distant possibility to a present choice. Keep it physical and handleable, without a magical glow."
+      ]
+    ],
+    "relations": [
+      [
+        "Imani",
+        "Imani names present obligations and who carries them. Noor helps imagine an arrangement that would distribute those obligations differently."
+      ],
+      [
+        "Ari",
+        "Ari asks which assumptions support a scenario. Noor keeps the exploration open while welcoming tests that sharpen it."
+      ],
+      [
+        "Bram",
+        "Bram gives an imagined future a small working part. Noor invites him to explore before the final design exists."
+      ]
+    ],
+    "scenes": [
+      [
+        "Two possible routes",
+        "Centaur",
+        "Noor opens a star map on a low wall where two real paths leave a settlement. They connect one golden thread to a nearby water vessel while Imani listens. Show a possible future tied to an ordinary present choice, using warm natural light without an aura."
+      ],
+      [
+        "Too many horizons",
+        "Reverse-centaur",
+        "Noor studies several unfolding maps at a table while a companion waits with a simple request. Golden thread gathers loosely beside an untouched practical task. Their upward gaze communicates absorption rather than supernatural foresight."
+      ],
+      [
+        "One choice today",
+        "Centaur",
+        "Noor folds away all but two routes and points to a small reversible change in a shared plan. Imani holds the present task between them. Noor's gaze meets hers; the return is connection with the people in the room."
+      ]
+    ],
+    "continuity": "Preserve golden-brown skin with the reference's vitiligo distribution across face and exposed arms, very tall narrow frame and long limbs, asymmetric dark curls with a cropped side, charcoal-violet wraps with gold trim, pale palomino coat with cream patches and cream tail. Reverse form keeps corresponding cream markings on a palomino horse head, the same patterned human arms, dark wraps and trousers. Match the reference's marking placement across shots.",
+    "avoid": "Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
+  },
+  "image_prompts": [
+    {
+      "title": "Two possible routes",
+      "form": "Centaur",
+      "prompt": "Character: Noor (they/them). Use the attached Noor reference sheet as the identity authority. Form: Centaur. Preserve golden-brown skin with the reference's vitiligo distribution across face and exposed arms, very tall narrow frame and long limbs, asymmetric dark curls with a cropped side, charcoal-violet wraps with gold trim, pale palomino coat with cream patches and cream tail. Reverse form keeps corresponding cream markings on a palomino horse head, the same patterned human arms, dark wraps and trousers. Match the reference's marking placement across shots. Scene: Noor opens a star map on a low wall where two real paths leave a settlement. They connect one golden thread to a nearby water vessel while Imani listens. Show a possible future tied to an ordinary present choice, using warm natural light without an aura. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
+    },
+    {
+      "title": "Too many horizons",
+      "form": "Reverse-centaur",
+      "prompt": "Character: Noor (they/them). Use the attached Noor reference sheet as the identity authority. Form: Reverse-centaur. Preserve golden-brown skin with the reference's vitiligo distribution across face and exposed arms, very tall narrow frame and long limbs, asymmetric dark curls with a cropped side, charcoal-violet wraps with gold trim, pale palomino coat with cream patches and cream tail. Reverse form keeps corresponding cream markings on a palomino horse head, the same patterned human arms, dark wraps and trousers. Match the reference's marking placement across shots. Scene: Noor studies several unfolding maps at a table while a companion waits with a simple request. Golden thread gathers loosely beside an untouched practical task. Their upward gaze communicates absorption rather than supernatural foresight. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
+    },
+    {
+      "title": "One choice today",
+      "form": "Centaur",
+      "prompt": "Character: Noor (they/them). Use the attached Noor reference sheet as the identity authority. Form: Centaur. Preserve golden-brown skin with the reference's vitiligo distribution across face and exposed arms, very tall narrow frame and long limbs, asymmetric dark curls with a cropped side, charcoal-violet wraps with gold trim, pale palomino coat with cream patches and cream tail. Reverse form keeps corresponding cream markings on a palomino horse head, the same patterned human arms, dark wraps and trousers. Match the reference's marking placement across shots. Scene: Noor folds away all but two routes and points to a small reversible change in a shared plan. Imani holds the present task between them. Noor's gaze meets hers; the return is connection with the people in the room. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Do not erase, relocate or turn vitiligo into body paint, glowing runes, scars or an agency-state effect. Do not substitute Ari's gray coat or treat Noor as a mystical oracle. Scenarios are possibilities, not supernatural certainty."
+    }
+  ],
+  "reference_sheet": "../nonbinary-medium-skin-wiry-palomino-centaur-character-study.png"
+}

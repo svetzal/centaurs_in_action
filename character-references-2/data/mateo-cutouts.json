@@ -1,0 +1,9 @@
+{
+  "tool": "Built-in image_gen",
+  "source": "tmp/mateo/chroma-source.png",
+  "source_note": "Generated intermediate copied into the ignored tmp directory. Final assets are versioned with the site.",
+  "prompt": "Create an OPAQUE chroma-key INTERMEDIATE plate for later extraction with our own helper. Do not remove the magenta background in this intermediate file. Background-extraction edit: these EXACT two Mateo figures, left centaur and right reverse-centaur, side-by-side widely separated. Replace ALL original off-white backdrop with solid uniform #ff00ff including enclosed holes between arms/torso and between legs. Preserve their faces, anatomy, clothing, pose, warm brown skin, unruly dark brown hair, ivory sleeveless shirt, rich brown coat, brown shorts, painterly shading and precise dark ink outlines. Repair light-background fringe into crisp subject-colored/dark edges, no white halo. Full body with 6% generous padding around head, tail, hooves and feet; central empty vertical band. Background must be ONE FLAT uniform #ff00ff color, no shadows, gradients, texture, floor planes, reflections, lighting variation, scenery. #ff00ff must not appear anywhere in subject and no magenta reflection or rim light. No text, labels, watermark or logos. Both stand exactly as references. No accessories added.",
+  "references": ["character-references-2/mateo/assets/centaur-full-body.png", "character-references-2/mateo/assets/reverse-full-body.png"],
+  "extraction": {"helper": "~/.codex/skills/.system/imagegen/scripts/remove_chroma_key.py", "auto_key": "border", "sampled_key": "#fc04fb", "soft_matte": true, "transparent_threshold": 12, "opaque_threshold": 220, "despill": true, "split_x": 800, "trim": "alpha bounding box", "padding_px": 20},
+  "outputs": ["character-references-2/mateo/assets/centaur-full-body-clean.png", "character-references-2/mateo/assets/reverse-full-body-clean.png"]
+}

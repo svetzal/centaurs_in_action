@@ -424,3 +424,7 @@ footer strong {
     transition-duration: 0.01ms !important;
   }
 }
+
+.character-card:hover img,
+.character-card:focus-visible img { opacity: 1; transform: scale(1.025); }
+.character-card:focus-visible { outline: 4px solid var(--terracotta); outline-offset: 4px; }

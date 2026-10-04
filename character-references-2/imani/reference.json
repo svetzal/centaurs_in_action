@@ -1,0 +1,126 @@
+{
+  "name": "Imani",
+  "established_profile": {
+    "Reference": "woman-dark-skin-plus-size-deep-bay-centaur-character-study.png",
+    "Pronouns": "she/her",
+    "Role": "Community program director and hearthkeeper",
+    "Character essence": "Imani makes belonging strong enough to carry difficult work.",
+    "Handwritten phrase": "No one becomes the cost of progress.",
+    "Physical presence": "Tall, plus-size, broad-hipped, and powerfully built, with soft definition and a grounded stance",
+    "Defining appearance": "Very dark cool-brown skin, long black locs, gold jewellery, teal wrap blouse, and deep-bay horse coat",
+    "Place in society": "A community anchor with informal authority beyond her job title; people seek her when policy and lived reality collide",
+    "Carried objects": "Hearth token, bridge-rope loop, small balance scale, and a ring of community keys",
+    "Characteristics": "Strength 16, Dexterity 10, Constitution 17, Intelligence 14, Wisdom 18, Charisma 16",
+    "First impression": "Grounded, generous, formidable",
+    "Inner engine": "Wants no one to be treated as expendable to the mission",
+    "Leadership strength": "Creates trust, belonging, and durable accountability",
+    "Shadow": "Carries work that should be returned to its rightful owner",
+    "Emotional tells": "Goes very still when a boundary has been crossed; laughs with her whole body when tension finally breaks",
+    "Voice": "Low, warm, deliberate; says difficult things without making people small",
+    "Motifs": "Hearth token, bridge rope, balanced scales, teal banner",
+    "Private delight": "Watching someone realize the group truly has their back",
+    "bio": "Imani builds the conditions in which people can do brave work together. She remembers who has not spoken, who needs context, and which promise must not be dropped. Her steadiness is not passivity; when a boundary matters, she becomes the clearest person in the room."
+  },
+  "storytelling": {
+    "title": "Belonging with a backbone",
+    "origin": "Imani's authority grew through keeping small promises: returning a key, remembering an absent person, and checking whether a decision worked once the meeting ended. She knows how easily a community project can depend on invisible labour. People trust her because care and accountability arrive together.",
+    "want": "To build a community capable of difficult work without treating anyone as expendable, including herself.",
+    "fear": "That a dropped responsibility will become someone else's harm, and that asking for help will leave the most vulnerable person carrying the cost.",
+    "contradiction": "She insists that everyone deserves support while quietly exempting herself from the same protection.",
+    "boundary": "A deadline does not excuse humiliation, exclusion, or a promise made on someone else's behalf.",
+    "candid": "After a hard conversation, Imani sits with her keys set down and laughs with her whole body while someone else tends the hearth. Show her receiving care as readily as she gives it.",
+    "centred": "Imani makes room for the unheard voice, states the boundary plainly, and returns responsibility to the person who can carry it. Her steadiness creates shared trust without making her the sole support holding everything upright.",
+    "captured": "When promises begin to fail, Imani takes on every loose end. Generosity becomes overfunctioning and accountability becomes personal vigilance. Surrounded by requests, she cannot hear her own limits or leave space for others to become dependable.",
+    "triggers": [
+      "An institution praises her care while withholding the resources it promised.",
+      "The same people repeatedly hand her unfinished responsibilities.",
+      "An urgent plan makes the least powerful participant absorb the risk."
+    ],
+    "state_cues": [
+      "Grounded stance; hands free to welcome or set a clear boundary; keys shared across the table.",
+      "Arms occupied with other people's materials; jaw set; requests arriving from several directions while her own task waits."
+    ],
+    "return": [
+      "I am carrying promises that were never mine to make.",
+      "Fear that someone will be abandoned has made every request feel like my duty.",
+      "I can make a fair boundary clear without making anyone small.",
+      "Name one responsibility, return it to its owner, and ask for a concrete commitment."
+    ],
+    "emotions": [
+      "Attentive: settled shoulders, direct warm eyes and a still mouth; reverse ears gently forward.",
+      "Curious: chin lifts a little as she invites more context; an ear turns toward the quieter voice.",
+      "Happy: broad smile and whole-body laughter; eyes soften and the horse muzzle relaxes.",
+      "Worried: she becomes very still, with a firm mouth and focused gaze; hold the same grounded dignity in reverse form.",
+      "Thoughtful: chin supported lightly, breath settled, eyes on the person rather than the paperwork; hand rests near the muzzle."
+    ],
+    "props": [
+      [
+        "Hearth token",
+        "A tangible reminder of mutual care. It can be offered or received; she need not always be the giver."
+      ],
+      [
+        "Bridge-rope loop",
+        "Shared support with several hands on the rope. Avoid making her carry everyone literally."
+      ],
+      [
+        "Small balance scale",
+        "Makes uneven responsibility visible. A practical tabletop object, not a symbol of moral judgment."
+      ],
+      [
+        "Community keys",
+        "Represent access and trust. Handing a key to its responsible owner is a useful recovery beat."
+      ]
+    ],
+    "relations": [
+      [
+        "Rowan",
+        "Imani protects continuity while Rowan adapts. They negotiate what can change and what people must still be able to rely on."
+      ],
+      [
+        "Noor",
+        "She asks who carries today's cost of a future possibility. Noor helps her see when today's arrangement can be redesigned."
+      ],
+      [
+        "Celeste",
+        "Celeste spots a burden hidden in the journey. Imani helps name who has the authority and responsibility to remove it."
+      ]
+    ],
+    "scenes": [
+      [
+        "Room at the table",
+        "Centaur",
+        "At a community planning circle, Imani shifts a map and opens space for a previously unheard participant. A hearth token sits between them. Show reciprocal attention and other people doing useful work, with her full grounded silhouette visible."
+      ],
+      [
+        "Everyone's unfinished work",
+        "Reverse-centaur",
+        "In a community hall, Imani stands with a bundle of maps and several key rings while different hands offer more tasks. Her expression is controlled and tired, never comic. Leave her own unopened notebook visible on the table."
+      ],
+      [
+        "A promise returned",
+        "Centaur",
+        "Imani places one key in another person's open palm and speaks with calm directness. Her other hand is free. In the background two people take up a task together, showing responsibility becoming shared."
+      ]
+    ],
+    "continuity": "Preserve very dark cool-brown skin, tall plus-size broad-hipped powerful build with soft definition, long black locs, gold jewellery, teal wrap blouse with gold edging, deep-bay coat and dark lower legs. Reverse form keeps her substantial body, loc-like black mane, bay horse head, teal blouse and dark loose trousers.",
+    "avoid": "Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
+  },
+  "image_prompts": [
+    {
+      "title": "Room at the table",
+      "form": "Centaur",
+      "prompt": "Character: Imani (she/her). Use the attached Imani reference sheet as the identity authority. Form: Centaur. Preserve very dark cool-brown skin, tall plus-size broad-hipped powerful build with soft definition, long black locs, gold jewellery, teal wrap blouse with gold edging, deep-bay coat and dark lower legs. Reverse form keeps her substantial body, loc-like black mane, bay horse head, teal blouse and dark loose trousers. Scene: At a community planning circle, Imani shifts a map and opens space for a previously unheard participant. A hearth token sits between them. Show reciprocal attention and other people doing useful work, with her full grounded silhouette visible. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
+    },
+    {
+      "title": "Everyone's unfinished work",
+      "form": "Reverse-centaur",
+      "prompt": "Character: Imani (she/her). Use the attached Imani reference sheet as the identity authority. Form: Reverse-centaur. Preserve very dark cool-brown skin, tall plus-size broad-hipped powerful build with soft definition, long black locs, gold jewellery, teal wrap blouse with gold edging, deep-bay coat and dark lower legs. Reverse form keeps her substantial body, loc-like black mane, bay horse head, teal blouse and dark loose trousers. Scene: In a community hall, Imani stands with a bundle of maps and several key rings while different hands offer more tasks. Her expression is controlled and tired, never comic. Leave her own unopened notebook visible on the table. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
+    },
+    {
+      "title": "A promise returned",
+      "form": "Centaur",
+      "prompt": "Character: Imani (she/her). Use the attached Imani reference sheet as the identity authority. Form: Centaur. Preserve very dark cool-brown skin, tall plus-size broad-hipped powerful build with soft definition, long black locs, gold jewellery, teal wrap blouse with gold edging, deep-bay coat and dark lower legs. Reverse form keeps her substantial body, loc-like black mane, bay horse head, teal blouse and dark loose trousers. Scene: Imani places one key in another person's open palm and speaks with calm directness. Her other hand is free. In the background two people take up a task together, showing responsibility becoming shared. Style: warm illustrated mythic adventure, expressive ink contours, painterly shading, tactile materials and grounded light. Preserve anatomy: centaur = human head and torso joined to a four-legged horse body; reverse-centaur = horse head on a clothed human body with two human legs. Keep all limbs plausible. Preserve identity, build, clothing and markings across forms. Agency is conveyed through attention, posture and context, never through changing skin tone, body size or gender. No body art, readable text, labels, watermark or logos. Avoid: Never slim her body, lighten her skin, smooth her locs into generic hair, or turn care into compulsory maternal service. Her size and identity do not change with her agency state; allow play, anger, expertise and receiving help."
+    }
+  ],
+  "reference_sheet": "../woman-dark-skin-plus-size-deep-bay-centaur-character-study.png"
+}
